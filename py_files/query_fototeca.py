@@ -20,13 +20,14 @@ my_SPARQL_query = """
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-SELECT ?photographer
+SELECT ?photographer (COUNT(<http://purl.org/spar/pro/holdsRoleInTime>) as ?cnt)
 WHERE { 
   	?x rdf:type <http://www.essepuntato.it/2014/03/fentry/Photograph> ; 
     crm:P94i_was_created_by ?creation .
     ?creation crm:P14_carried_out_by ?photographer .
  }
 GROUP BY ?photographer 
+ORDER BY DESC(?cnt) ?photographer
 """
 
 # set the endpoint 
@@ -40,4 +41,4 @@ results = sparql_ft.query().convert()
 
 # manipulate the result
 for result in results["results"]["bindings"]:
-    print(result["photographer"]["value"])
+    print(result["photographer"]["value"], result["cnt"]["value"])
