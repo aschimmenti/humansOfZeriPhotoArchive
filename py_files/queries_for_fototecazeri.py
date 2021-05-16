@@ -304,3 +304,7 @@ period as an object
 https://w3id.org/artchives/collectionfototeca-julian-kliemann http://www.wikidata.org/prop/direct/P921 http://www.wikidata.org/entity/Q7018period as an object
 https://w3id.org/artchives/collectionfototeca-fahy http://www.wikidata.org/prop/direct/P921 http://www.wikidata.org/entity/Q7018
 period as an object"""
+
+
+
+regex_for_Q = "Q[\d]+"

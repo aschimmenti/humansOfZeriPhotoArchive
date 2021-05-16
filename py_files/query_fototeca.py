@@ -9,6 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 from SPARQLWrapper import SPARQLWrapper, JSON
 import ssl
+import csv
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -20,14 +21,15 @@ my_SPARQL_query = """
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-SELECT ?photographer (COUNT(<http://purl.org/spar/pro/holdsRoleInTime>) as ?cnt)
+SELECT ?photographer_label (COUNT(<http://purl.org/spar/pro/holdsRoleInTime>) as ?cnt)
 WHERE { 
   	?x rdf:type <http://www.essepuntato.it/2014/03/fentry/Photograph> ; 
     crm:P94i_was_created_by ?creation .
     ?creation crm:P14_carried_out_by ?photographer .
+    ?photographer rdfs:label ?photographer_label
  }
-GROUP BY ?photographer 
-ORDER BY DESC(?cnt) ?photographer
+GROUP BY ?photographer_label 
+ORDER BY DESC(?cnt) ?photographer_label
 """
 
 # set the endpoint 
