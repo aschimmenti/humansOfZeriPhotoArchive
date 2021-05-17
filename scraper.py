@@ -1,6 +1,22 @@
+import rdflib
+import pprint
+from rdflib import Namespace
+from rdflib.namespace import DCTERMS
+from rdflib.namespace import RDFS
+from rdflib import URIRef, Literal
+from rdflib.namespace import XSD
+import numpy as np 
+import matplotlib.pyplot as plt 
+from SPARQLWrapper import SPARQLWrapper, JSON
+import ssl
+import csv
 import wptools
 import json
-import wikipedia   
+import wikipedia 
+
+ssl._create_default_https_context = ssl._create_unverified_context
+
+wikidata_endpoint = 'https://query.wikidata.org/'
 # Opening JSON file
 f = open('queryResults.json',)
   
@@ -13,26 +29,16 @@ data = json.load(f)
 
 list_of_labels = []
 for row in data["results"]["bindings"]:
-	if len(list_of_labels) < 16:
-		list_of_labels.append(row["photographer_label"]["value"])
-	else: 
-		break
-
-print(list_of_labels)
-
-
-for photographer in list_of_labels:    
-    page = wptools.page(photographer) # create a page object
+	list_of_labels.append(row["photographer_label"]["value"])
+	
+founds = []
+for x in list_of_labels:
     try:
-        page.get_parse() # call the API and parse the data
-        if page.data['infobox'] != None:
-            # if infobox is present
-            infobox = page.data['infobox']
-            # get data for the interested features/attributes
-            data = { feature : infobox[feature] if feature in infobox else '' 
-                         for feature in features }
-        else:
-            data = { feature : '' for feature in features }
-
-    except KeyError:
-        pass
+        page = wptools.page(x)
+        page.get_query()
+        y = page.data['wikidata_url']
+        founds.append(y) 
+    except LookupError:
+        print("got exception")
+print(founds)
+    
