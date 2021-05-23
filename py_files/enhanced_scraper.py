@@ -13,13 +13,15 @@ import numpy as np
 import matplotlib.pyplot as plt 
 from SPARQLWrapper import SPARQLWrapper, POST, DIGEST, JSON
 from SPARQLWrapper import POST 
-
 import ssl
 import csv
+from archerror_handling import handle_request
+
+
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
-name_file = open('queryResults.json') 
+name_file = open('py_files/queryResults.json') 
 base_url = "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=%s&language=en&format=json&limit=50"
 
 data = json.load(name_file)
@@ -48,17 +50,20 @@ for idx, row in enumerate(data["results"]["bindings"]):
             list_of_conceptualuris.append(s['concepturi'])
 conceptual_uris = []
 
-for uri in list_of_conceptualuris:
-    uri_mutated = '<' + uri + '>'
-    conceptual_uris.append(uri_mutated)
+def suit_for_SPARQL_dinner(list_of_uris): 
+    bracketed_uris = []
+    for uri in list_of_uris:
+        suited_uri = '<' + uri + '>'
+        bracketed_uris.append(suited_uri)
+    return bracketed_uris
 
 
-uris = ' '.join(conceptual_uris)
+uris = ' '.join(suit_for_SPARQL_dinner(conceptual_uris))
 
 print(uris)
 
 sparql = SPARQLWrapper("https://query.wikidata.org/bigdata/namespace/wdq/sparql")
-sparql.setMethod(GET)
+sparql.setMethod(POST)
 
 my_SPARQL_query= """
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
@@ -94,3 +99,5 @@ print(results)
 
 for result in results["results"]["bindings"]:
     print(result["photographer"]["value"], result["label"]["value"], result["citizenship"]["value"], result["placeOfBirth"]["value"], result["worklocation"]["value"])
+
+handle_request("https://query.wikidata.org/bigdata/namespace/wdq/sparql")
