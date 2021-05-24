@@ -54,7 +54,7 @@
             {
                 "photographerEntity": {
                     "type": "uri",
-                    "value": "https://www.wikidata.org/wiki/Q106936993"
+                    "value": "http://www.wikidata.org/entity/Q106936993"
                 },
                 "label": {
                     "xml:lang": "en",
@@ -65,23 +65,12 @@
             {
                 "photographerEntity": {
                     "type": "uri",
-                    "value": "https://www.wikidata.org/wiki/Q106652385"
+                    "value": "http://www.wikidata.org/entity/Q106652385"
                 },
                 "label": {
                     "xml:lang": "en",
                     "type": "literal",
                     "value": "Mario Sansoni"
-                }
-            },
-            {
-                "photographerEntity": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q3894094"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Paolo Gasparini"
                 }
             },
             {

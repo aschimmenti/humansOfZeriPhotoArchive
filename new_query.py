@@ -1,4 +1,4 @@
-PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+a = """PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?photographer ?label ?citizenships ?placeOfBirth ?worklocation
@@ -17,4 +17,9 @@ WHERE {
     }
     FILTER(LANG(?label) = "en").
     }
-GROUP BY ?photographer ?label ?citizenships ?placeOfBirth ?worklocation
+GROUP BY ?photographer ?label ?citizenships ?placeOfBirth ?worklocation"""
+
+list1 = [0]
+
+for person in list1: 
+  print('lol')
