@@ -15,7 +15,6 @@ from SPARQLWrapper import SPARQLWrapper, POST, DIGEST, JSON
 from SPARQLWrapper import POST 
 import ssl
 import csv
-from archerror_handling import handle_request
 
 
 
