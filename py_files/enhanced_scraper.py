@@ -16,11 +16,9 @@ from SPARQLWrapper import POST
 import ssl
 import csv
 
-
-
 ssl._create_default_https_context = ssl._create_unverified_context
 
-name_file = open('py_files/queryResults.json') 
+name_file = open('queryResults.json') 
 base_url = "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=%s&language=en&format=json&limit=50"
 
 data = json.load(name_file)
@@ -47,7 +45,6 @@ for idx, row in enumerate(data["results"]["bindings"]):
             continue_val += 1
     for s in search_results:
             list_of_conceptualuris.append(s['concepturi'])
-conceptual_uris = []
 
 def suit_for_SPARQL_dinner(list_of_uris): 
     bracketed_uris = []
@@ -56,47 +53,14 @@ def suit_for_SPARQL_dinner(list_of_uris):
         bracketed_uris.append(suited_uri)
     return bracketed_uris
 
+def afterparty_trash(filename, data_to_write):
+    with open(filename, 'w') as outfile:
+        json.dump(data_to_write, outfile)
 
-uris = ' '.join(suit_for_SPARQL_dinner(conceptual_uris))
+uris = ' '.join(suit_for_SPARQL_dinner(list_of_conceptualuris))
 
-print(uris)
+def save_to_file(content, filename):
+    with open(filename, 'w') as file:
+        file.write(content)
 
-sparql = SPARQLWrapper("https://query.wikidata.org/bigdata/namespace/wdq/sparql")
-sparql.setMethod(POST)
-
-my_SPARQL_query= """
-PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-SELECT ?photographer ?label ?citizenships ?placeOfBirth ?worklocation
-WHERE {
-    VALUES ?photographer {""" + uris + """} .
-    ?photographer wdt:P106 wd:Q33231 . 
-    ?photographer rdfs:label ?label .
-    ?photographer wdt:P31 wd:Q5 .
-  OPTIONAL {
-    ?photographer wdt:P27* ?citizenships .
-    ?photographer wdt:P19* ?placeOfBirth . 
-    ?photographer wdt:P937* ?worklocation .
-    }
-    FILTER(LANG(?label) = "en").
-    }
-GROUP BY ?photographer ?label ?citizenships ?placeOfBirth ?worklocation
-LIMIT 20
-"""
-
-
-# set the endpoint 
-# set the query
-sparql.setQuery(my_SPARQL_query)
-# set the returned format
-sparql.setReturnFormat(JSON)
-# get the results
-results = sparql.query().convert()
-json.dump(results) 
-print(results)
-
-for result in results["results"]["bindings"]:
-    print(result["photographer"]["value"], result["label"]["value"], result["citizenship"]["value"], result["placeOfBirth"]["value"], result["worklocation"]["value"])
-
-handle_request("https://query.wikidata.org/bigdata/namespace/wdq/sparql")
+save_to_file(uris, "uris.txt")
