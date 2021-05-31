@@ -1,0 +1,188 @@
+{
+    "head": {
+        "vars": [
+            "photographer",
+            "label"
+        ]
+    },
+    "results": {
+        "bindings": [
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q67930768"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Vasari Project"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q81170636"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Fratelli Alinari, Firenze (FI)"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1435690"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Cini Foundation"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q81180578"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Fondazione Giorgio Cini onlus Istituto per la musica di Venezia, Venezia (VE)"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q89574171"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Philadelphia Museum of Art Library and Archives"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q89059627"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Detroit Institute of Arts Research Library & Archives"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1487762"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Rhenish Picture Archive"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q54782544"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "National Gallery of Canada Library and Archives"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q28215927"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Lombardia Beni Culturali"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q81178379"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Bottega d'Arte Mazzoleni di Mazzoleni Giovanni e C. snc (numero REA 39388 So), Morbegno (SO)"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q81170634"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Foto Locchi s.r.l., Firenze (FI)"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q81173175"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Electa, Milano (MI)"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q106785227"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Wildenstein Plattner Institute"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q50632603"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Koninklijke verzamelingen"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q81177876"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Chierici Regolari Ministri degli Infermi. Archivio storico della Curia generale, Roma (RM)"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q81177879"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Chierici regolari poveri della Madre di Dio delle Scuole Pie, detti Scolopi. Casa generalizia, Roma (RM)"
+                }
+            }
+        ]
+    }
+}

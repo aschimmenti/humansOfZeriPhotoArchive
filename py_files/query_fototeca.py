@@ -1,13 +1,8 @@
 
-uris = ['<http://www.wikidata.org/entity/Q3157912>', '<http://www.wikidata.org/entity/Q3160907>', '<http://www.wikidata.org/entity/Q3441292>', '<http://www.wikidata.org/entity/Q3840227>', '<http://www.wikidata.org/wiki/Q106936993>', '<http://www.wikidata.org/wiki/Q106652385>', '<http://www.wikidata.org/entity/Q449754>', '<http://www.wikidata.org/entity/Q644689>', '<http://www.wikidata.org/entity/Q647812>', '<http://www.wikidata.org/entity/Q2346257>', '<http://www.wikidata.org/entity/Q2412846>', '<http://www.wikidata.org/entity/Q30093317>', '<http://www.wikidata.org/entity/Q52155339>', '<http://www.wikidata.org/entity/Q58242413>', '<http://www.wikidata.org/entity/Q59743982>', '<http://www.wikidata.org/entity/Q61992274>', '<http://www.wikidata.org/entity/Q67294703>', '<http://www.wikidata.org/entity/Q100138863>', '<http://www.wikidata.org/entity/Q102280734>', '<http://www.wikidata.org/entity/Q106650408>', '<http://www.wikidata.org/entity/Q155158>', '<http://www.wikidata.org/entity/Q365683>', '<http://www.wikidata.org/entity/Q3081037>', '<http://www.wikidata.org/entity/Q25939348>', '<http://www.wikidata.org/entity/Q30127547>', '<http://www.wikidata.org/entity/Q94869574>', '<http://www.wikidata.org/entity/Q102282957', '<http://www.wikidata.org/wiki/Q16164590>', '<http://www.wikidata.org/wiki/Q18508633>', '<http://www.wikidata.org/wiki/Q18934975>']
-exterminate = '<http://www.wikidata.org/entity/Q644689>'
-new_uris = []
-for i in range(len(uris)):
-    if (exterminate == uris[i]): 
-        print('found')
-    else: 
-        new_uris.append(uris[i])
-        print("Not found")
-print(new_uris)
+search_string = "Fiorentini, Pietro"
+comma = ','
+if comma in search_string:
+    x = search_string.split(", ")
+    string_to_join = str(x[1]) + ' '+ str(x[0])
+print(string_to_join)
 
-['<http://www.wikidata.org/entity/Q3157912>', '<http://www.wikidata.org/entity/Q3160907>', '<http://www.wikidata.org/entity/Q3441292>', '<http://www.wikidata.org/entity/Q3840227>', '<http://www.wikidata.org/wiki/Q106936993>', '<http://www.wikidata.org/wiki/Q106652385>', '<http://www.wikidata.org/entity/Q449754>', '<http://www.wikidata.org/entity/Q647812>', '<http://www.wikidata.org/entity/Q2346257>', '<http://www.wikidata.org/entity/Q2412846>', '<http://www.wikidata.org/entity/Q30093317>', '<http://www.wikidata.org/entity/Q52155339>', '<http://www.wikidata.org/entity/Q58242413>', '<http://www.wikidata.org/entity/Q59743982>', '<http://www.wikidata.org/entity/Q61992274>', '<http://www.wikidata.org/entity/Q67294703>', '<http://www.wikidata.org/entity/Q100138863>', '<http://www.wikidata.org/entity/Q102280734>', '<http://www.wikidata.org/entity/Q106650408>', '<http://www.wikidata.org/entity/Q155158>', '<http://www.wikidata.org/entity/Q365683>', '<http://www.wikidata.org/entity/Q3081037>', '<http://www.wikidata.org/entity/Q25939348>', '<http://www.wikidata.org/entity/Q30127547>', '<http://www.wikidata.org/entity/Q94869574>', '<http://www.wikidata.org/entity/Q102282957', '<http://www.wikidata.org/wiki/Q16164590>', '<http://www.wikidata.org/wiki/Q18508633>', '<http://www.wikidata.org/wiki/Q18934975>']

@@ -1,0 +1,56 @@
+{
+    "head": {
+        "vars": [
+            "photographer",
+            "label"
+        ]
+    },
+    "results": {
+        "bindings": [
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q644689"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Fratelli Alinari"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q85859399"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Studio Achille Villani & Figli"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2045337"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Pach Brothers"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q85724045"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Photopress"
+                }
+            }
+        ]
+    }
+}

@@ -18,14 +18,26 @@ import csv
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
+def reverse_string(string): 
+    comma = ', '
+    string_to_join = ''
+    if comma in string: 
+        x = search_string.split(", ")
+        string_to_join = str(x[1]) + ' '+ str(x[0])
+        return string_to_join
+    else: 
+        return string
+
 name_file = open('queryResults.json') 
 base_url = "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=%s&language=en&format=json&limit=50"
 
 data = json.load(name_file)
 dict_of_results = {}
 list_of_conceptualuris = []
+
 for idx, row in enumerate(data["results"]["bindings"]):
-    search_string = row["photographer_label"]["value"] 
+    search_string = row["photographer_label"]["value"]
+    search_string = reverse_string(search_string)
     final_str =  ('+'.join(search_string.split(' '))).strip()
     search_res = requests.get( base_url % final_str).json()
     n_results = len(search_res['search'])
@@ -53,9 +65,6 @@ def suit_for_SPARQL_dinner(list_of_uris):
         bracketed_uris.append(suited_uri)
     return bracketed_uris
 
-def afterparty_trash(filename, data_to_write):
-    with open(filename, 'w') as outfile:
-        json.dump(data_to_write, outfile)
 
 uris = ' '.join(suit_for_SPARQL_dinner(list_of_conceptualuris))
 
@@ -63,4 +72,5 @@ def save_to_file(content, filename):
     with open(filename, 'w') as file:
         file.write(content)
 
-save_to_file(uris, "uris.txt")
+save_to_file(uris, "uris3.txt")
+
