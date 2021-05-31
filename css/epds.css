@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(roboto/Roboto-Regular.ttf);
+}
+
+body {
+    background-color: #FEF8EC;
+    width: 100%;
+    height: 100%;
+    margin:0;
+}
+
+/* ----------- NAVBAR -------- */ 
+
+.topnav {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    display: block;
+    top:0;
+    z-index: 2000;
+    top:0px;
+    padding-top: 25px;
+    border-bottom: 0.5 solid #00283D;
+    backdrop-filter: saturate(50%) blur(15px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.topnav h1 {
+    font-family: 'Roboto';
+    font-size: 25px;
+    letter-spacing: 0.07rem;
+    margin: 0;
+    margin-left: 40px;
+    position:relative;
+    top:-10px;
+    color: black;
+}
+.right-nav {
+    float:right;
+    width:20%;
+    font-family: 'Roboto';
+    position: relative;
+    font-size: 0.7rem;
+}
+.right-nav button {
+    font-size: 20px;
+    font-family: 'Roboto';
+    letter-spacing: 0.07rem;
+    margin-top: 15px;
+    position: relative;
+    display: block;
+    top:-10px;
+    color: black;
+}
+
+.menu {
+    font-family: 'Roboto';
+    position:relative;
+    float: left;
+    display: block;
+    text-align: center;
+    width:100%;
+    top:0;
+    margin: 0 !important;
+}
+
+.left-nav {
+    float:left;
+    width:80%;
+}
+
+/* ---- COLLAPSE MENU ------*/
+
+.collapsemenu {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 65px;
+    backdrop-filter: saturate(50%) blur(15px);
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 2000;
+    
+}
+
+.contentmenu p {
+    font-family: 'Roboto';
+    text-align: center;
+    margin: 0;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.menuintro {
+    margin-top: 10%;
+}
+
+/* --------- FIND OUT MORE -------- */
+
+.firstsection {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #B9D1DF;
+    margin: 0;
+}
+
+.bottombar {
+    display: block;
+    position: absolute;
+    width: 20%;
+    margin-left: 40%;
+    bottom: 0%;
+    z-index: 1;
+}
+
+.bottombar p {
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+    line-height: 4rem;
+    text-align: center;
+}
+
+/* -------------- CHAPTERS ---------- */ 
+
+.chapter1 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+
+.chapter1 p {
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0;
+    
+}
+
+.chapter2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.chapter2 p {
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0;
+}
+
+.chapter3 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.chapter3 p {
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0;
+}
+
+.chapter4 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: yellowgreen;
+}
+
+.chapter4 p {
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0;
+}
+.chapter5 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: pink;
+}
+
+.chapter5 p {
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0;
+}
