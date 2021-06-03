@@ -22,13 +22,13 @@ def reverse_string(string):
     comma = ', '
     string_to_join = ''
     if comma in string: 
-        x = search_string.split(", ")
+        x = string.split(", ")
         string_to_join = str(x[1]) + ' '+ str(x[0])
         return string_to_join
     else: 
         return string
 
-name_file = open('queryResults.json') 
+name_file = open('fototeca_photographers.json') 
 base_url = "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=%s&language=en&format=json&limit=50"
 
 data = json.load(name_file)
