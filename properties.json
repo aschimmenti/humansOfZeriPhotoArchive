@@ -1,0 +1,1129 @@
+{
+  "head" : {
+    "vars" : [ "p", "o" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P170"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1089074"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasAccessConditions"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "literal",
+        "value" : "The archive can be visited by appointment after a proper request. Materials already scanned and described are freely availabe, while the consultation of photographs and archival documents not yet catalogued must be authorized by the Director of the Federico Zeri Foundation. "
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19997512"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1361667"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1572315"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q166118"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q170571"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q172984"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207241"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q359047"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q580807"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q623"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7075"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7814"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1400853"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3147735"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41493"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9134"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2528876"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3609940"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/MD1556356158493"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37853"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7016"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860861"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1278452"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15711026"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4692"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7018"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12554"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131808"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q134194"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q160538"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q174705"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19569585"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19754125"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19997511"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2245140"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2632216"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2886111"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q348024"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3619936"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3713796"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37562"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42207"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q59529805"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7017"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P921"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q945313"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasMainObjectType"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q125191"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasOtherObjectType"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3494271"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P1436"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "literal",
+        "value" : "290.000 photographs arrangend in more than 2,000 boxes"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P217"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "literal",
+        "value" : "FZ.1999.Zeri"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasHistoricalNotes"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "literal",
+        "value" : "On 24th March 1947, Federico Zeri wrote to Berenson to confess that his photograph library was still \"small and ill-organized\". It was around the same time that clarity and order were given to the ambitious project that would result in one of the world's most complete private archives for the art history sector. Over the years whole photograph collections previously owned by scholars, auction houses and antique dealers were saved by Zeri from dispersion or destruction. He collected photographic campaigns, complete with paintings, on historic building complexes and fresco cycles. Many important works that have now been irretrievably lost or have sunk without trace are only documented by photos from his archive. The photograph archive numbers 290,000 photos of art works, arranged by the scholar in some 10,000 folders in their turn contained in over 1,000 files. For the most part they are black and white prints (gelatin and albumen prints on paper), with a smaller section of colour prints and slides from State photography archives (ICCD, Soprintendenze), Italian and foreign museums, archives and private collections. The photographic collection copiously documents the scholar’s own favourite research field (Italian painting and sculpture from the thirteenth to the eighteenth century), but also includes sets devoted to archaeology, architecture, painting and sculpture of the nineteenth and twentieth centuries, as well as to applied arts, drawing, miniature and European painting. In some sectors, the quantity of pictures is well-nigh exhaustive of the subject. Most of the reproductions bear notes in his hand on the back, and these afford a wealth of information much-needed by research (bibliographical references, provenances, cross-references to other works, alternative attributions).\r\n"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasNotesOnScopeAndContent"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "literal",
+        "value" : "The photo library is divided into sections according to the different typologies of art objects documented in the photos. Besides its rich Italian painting collection (150,000 photographs), the archive contains sizable core collections covering Italian sculpture (17,000), Italian and European Still Life (14,400 photos), \"Non-Italian art\" (), Archaeology (5,300), Architecture (8,800), Drawings (12,700), the Applied arts (18,000 photos), Miniatures (5,500), Fakes ().  Inside the boxes photos are kept inside folders bearing the artists' names. Phototypes are 100% positives, for the most part black and white prints on paper: gelatin silver prints, albumen prints, carbon prints, collotypes, photogravures, with a smaller section of color prints and transparencies.\r\n"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasNotesOnSystemOfArrangement"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "literal",
+        "value" : "The archive has a personal order that reflects the scholar's conception of the evolution of history of art. Each series present a different classification. For main nucleous (Italian painting, Italian sculpure etc.), boxes follow a chronological and \"by schools\" order. The arrangement given by the art historian has been maintained.\r\n"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P275"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6937225"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P275"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6936496"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasAcquisitionType"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1124860"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasAggregator"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q234110"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasAggregator"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/MD1557323740114"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasCataloguingStandard"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/MD1556356058519"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasCataloguingStandard"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/MD1557322702284"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P973"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://catalogo.fondazionezeri.unibo.it/search/work"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P973"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://catalogo.fondazionezeri.unibo.it/scheda.livello.jsp?decorator=layout_resp&apply=true&locale=it&tipo_scheda=fondo&id=1"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasNotesOnFindingAid"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "literal",
+        "value" : "Since 2003 the Zeri Foundation has been working on a very analytic cataloguing project. The data model adopted comprises two primary catalogue units, one describing the photograph (Scheda F-ICCD, 113 fields) and the other the describing the work of art represented in it (Scheda OA-ICCD, 90 fields), together with 6 Authority files (Artists, Photographers, Bibliography, Archival description, Attached documents, Auction catalogues). The cataloguing, which until now has extended to 176,000 photographs covering the main sections of the archive (Italian Paintings, Italian Sculptures and Still Life), has led to the creation of a freely available online database accessible at http://ww.fondazionezeri.unibo.it. "
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasOtherNotes"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "literal",
+        "value" : "Since 2014, the Zeri & Lode research project has led to the publication of Zeri’s rdf data according to  cidoc-crm. On April 2016 the Zeri Photo Archive RDF dataset has been released. Data mostly regard artworks of Modern Art (15th-16th centuries): about 19.000 works of art and more than 30.000 photographs depicting such works are accurately described by means of like 11 million of RDF statements."
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P127"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23687322"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P793"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/MD1602583269327"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P485"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/MD1596724326924"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P1319"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#gYear",
+        "type" : "literal",
+        "value" : "1947"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P1326"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#gYear",
+        "type" : "literal",
+        "value" : "1998"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/wiki/Property:P571"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#gYear",
+        "type" : "literal",
+        "value" : "1999"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasScopeAndContentSubject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1572315"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasScopeAndContentSubject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q166118"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasScopeAndContentSubject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q170571"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasScopeAndContentSubject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q172984"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasScopeAndContentSubject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q207241"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasScopeAndContentSubject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q580807"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasScopeAndContentSubject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q623"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasScopeAndContentSubject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7075"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasNotesOnOtherNuclei"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "literal",
+        "value" : "Letters and documents by Federico Zeri can also be found in Fototeca Fahy (Bologna), Fondazione Longhi (Florence), Bilbioteca Berenson (Florence), Fondazione Cini (Venice), Frick Art Reference Library (New York) and in many archives of museums, art dealers, collectors."
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectArtist"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7814"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectArtist"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q160538"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectArtist"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19569585"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectArtist"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2245140"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectArtist"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2632216"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectArtist"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2886111"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectArtist"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q348024"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectArtist"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3713796"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectArtist"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37562"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectArtist"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42207"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectGenre"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q170571"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectGenre"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1400853"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectGenre"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3147735"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectGenre"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41493"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectGenre"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9134"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeriod"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37853"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeriod"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7016"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeriod"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4692"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeriod"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7018"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeriod"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12554"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeriod"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131808"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeriod"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7017"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectObject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q860861"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectObject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1278452"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectObject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15711026"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectObject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q134194"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectObject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q174705"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectObject"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q945313"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeople"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19997512"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeople"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1361667"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeople"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q359047"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeople"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2528876"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeople"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3609940"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeople"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/MD1556356158493"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeople"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19754125"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeople"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19997511"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeople"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3619936"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSubjectPeople"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q59529805"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasFirstLink"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://catalogo.fondazionezeri.unibo.it/scheda.livello.jsp?decorator=layout_resp&apply=true&locale=it&tipo_scheda=fondo&id=1"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "https://w3id.org/artchives/hasSecondLink"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://catalogo.fondazionezeri.unibo.it/search/work"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9388534"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "literal",
+        "value" : "archival collection"
+      }
+    }, {
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      "o" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "literal",
+        "value" : "Fototeca Zeri"
+      }
+    } ]
+  }
+}

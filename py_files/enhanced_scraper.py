@@ -17,6 +17,33 @@ import ssl
 import csv
 
 ssl._create_default_https_context = ssl._create_unverified_context
+def to_text(path):
+    final_text = list()
+    with open(path, newline='') as csvfile:
+        photographers = csv.DictReader(csvfile)
+        for row in photographers:
+            x = str(row['photographer']) 
+            y = int(row['contribution count'])
+            text = list()
+            for n in range(y):
+                text.append(x)
+            final_text.append(' '.join(text))
+    final_string = ' '.join(final_text)
+    return final_string
+        
+def save_to_file(content, filename):
+    with open(filename, 'w') as file:
+        file.write(content)
+
+def reverse_string(string): 
+    comma = ', '
+    string_to_join = ''
+    if comma in string: 
+        x = string.split(", ")
+        string_to_join = str(x[1]) + ' '+ str(x[0])
+        return string_to_join
+    else: 
+        return string
 
 def reverse_string(string): 
     comma = ', '

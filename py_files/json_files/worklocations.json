@@ -11,6 +11,17 @@
             {
                 "photographer": {
                     "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q61482172"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Gian Sinigaglia"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
                     "value": "http://www.wikidata.org/entity/Q18811896"
                 },
                 "label": {
@@ -374,6 +385,38 @@
                     "xml:lang": "en",
                     "type": "literal",
                     "value": "Florence"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q16164590"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Leopoldo Alinari"
+                },
+                "worklabel": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Rome"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q16164590"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Leopoldo Alinari"
+                },
+                "worklabel": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Naples"
                 }
             },
             {
@@ -1093,7 +1136,7 @@
                 "worklabel": {
                     "xml:lang": "en",
                     "type": "literal",
-                    "value": "Kingdom of Italy"
+                    "value": "Paris"
                 }
             },
             {
@@ -1109,7 +1152,7 @@
                 "worklabel": {
                     "xml:lang": "en",
                     "type": "literal",
-                    "value": "Paris"
+                    "value": "Rome"
                 }
             },
             {
@@ -1462,22 +1505,6 @@
             {
                 "photographer": {
                     "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q86736457"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Roland Devolder"
-                },
-                "worklabel": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Brussels metropolitan area"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
                     "value": "http://www.wikidata.org/entity/Q3831697"
                 },
                 "label": {
@@ -1697,6 +1724,22 @@
             {
                 "photographer": {
                     "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q61476278"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Gian Battista Colombo"
+                },
+                "worklabel": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Milan"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
                     "value": "http://www.wikidata.org/entity/Q30127547"
                 },
                 "label": {
@@ -1724,22 +1767,6 @@
                     "xml:lang": "en",
                     "type": "literal",
                     "value": "Perugia"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q61476278"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Gian Battista Colombo"
-                },
-                "worklabel": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Milan"
                 }
             },
             {
@@ -1809,22 +1836,6 @@
             {
                 "photographer": {
                     "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q2412846"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Paolo Lombardi"
-                },
-                "worklabel": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Siena"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
                     "value": "http://www.wikidata.org/entity/Q106936993"
                 },
                 "label": {
@@ -1884,6 +1895,22 @@
                     "xml:lang": "en",
                     "type": "literal",
                     "value": "Bologna"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2412846"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Paolo Lombardi"
+                },
+                "worklabel": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Siena"
                 }
             },
             {
@@ -2091,6 +2118,22 @@
                 "worklabel": {
                     "xml:lang": "en",
                     "type": "literal",
+                    "value": "Florence"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18508633"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Romualdo Alinari"
+                },
+                "worklabel": {
+                    "xml:lang": "en",
+                    "type": "literal",
                     "value": "Milan"
                 }
             },
@@ -2155,6 +2198,22 @@
                 "worklabel": {
                     "xml:lang": "en",
                     "type": "literal",
+                    "value": "Florence"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18934975"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Giuseppe Alinari"
+                },
+                "worklabel": {
+                    "xml:lang": "en",
+                    "type": "literal",
                     "value": "Milan"
                 }
             },
@@ -2188,17 +2247,6 @@
                     "xml:lang": "en",
                     "type": "literal",
                     "value": "Naples"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q61482172"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Gian Sinigaglia"
                 }
             }
         ]

@@ -1,0 +1,2642 @@
+{
+    "head": {
+        "vars": [
+            "photographer",
+            "label",
+            "birth",
+            "floruit",
+            "death",
+            "birthplace",
+            "deathplace"
+        ]
+    },
+    "results": {
+        "bindings": [
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q64212"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Giorgio Sommer"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1834-09-02T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1794"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1914-08-07T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2634"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q110373"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Wilhelm Castelli"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1901-12-17T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2843"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1984-05-29T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2843"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q155158"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Kurt Schwitters"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1887-06-20T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1715"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1948-01-08T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q994575"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q200890"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Vivian Maier"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1926-02-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q60"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "2009-04-21T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1297"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q215618"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Grete Stern"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1904-05-09T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q702259"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1999-12-24T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1486"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q252357"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Charles-François Daubigny"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1817-02-15T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q90"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1878-02-19T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q90"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q346323"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Emery Walker"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1851-04-02T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q124230"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1933-07-22T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q378129"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Félicien Rops"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1833-07-07T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q134121"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1898-08-23T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18281400"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q449754"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Carlo Naya"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1816-08-25T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q25214"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1882-05-30T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q641"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q585323"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Franz von Lenbach"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1836-12-13T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q504746"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1904-05-06T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1726"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q644689"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Fratelli Alinari"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q647812"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Franz Hanfstaengl"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1804-03-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q506523"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1877-04-18T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1726"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q789672"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Rudolf Balogh"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1879-09-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1781"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1944-10-09T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1781"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q946185"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Tomaso Filippi"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1852-03-26T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q641"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1948-01-21T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q641"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1445526"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Martin Gerlach"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1879-04-02T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1741"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1944-07-18T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1741"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1676501"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Martin Gerlach"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1846-03-13T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q3802"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1918-04-09T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1741"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2045337"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Pach Brothers"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2346257"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Giacomo Brogi"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1822-04-06T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2044"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1881-11-29T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2044"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2412846"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Paolo Lombardi"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1827-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2751"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1890-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2751"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2425872"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Bernard F. Eilers"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1878-04-24T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q727"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1951-04-26T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q727"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q3081037"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Francesco Negri"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1841-12-18T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q40036"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1924-12-21T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q16333"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q3109003"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Peter Elfelt"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1866-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1748"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1931-02-18T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1748"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q3131559"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Henri Manuel"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1874-04-24T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q223140"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1947-09-11T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q48958"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q3157912"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Jacques Ernest Bulloz"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1858-04-20T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q90"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1942-03-05T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q90"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q3160907"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "James Anderson"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1813-03-11T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q23066"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1877-02-27T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q220"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q3441292"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Romualdo Moscioni"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1849-03-17T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q13395"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1925-07-07T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q220"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q3723011"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Elio Ciol"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1929-03-03T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q53157"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q3724533"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Emilio Sommariva"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1883-12-08T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q6244"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1956-09-12T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q3750053"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Francesco Giordani"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1908-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q220"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1991-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q220"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q3831697"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Libero Tosi"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1902-07-24T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q111205"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1988-08-23T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2683"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q3840227"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Luigi Vaghi"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1882-09-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2683"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1967-01-02T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2683"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q17132342"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Joseph Janney Steinmetz"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1905-01-01T00:00:00Z"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1985-01-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q17350272"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Paul Robert"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1866-05-03T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q166997"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1898-04-13T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q90"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q17426655"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Guglielmo Chiolini"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1900-07-10T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q6259"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1991-07-07T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18169099"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Paolo Monti"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1908-08-11T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q6046"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1982-11-29T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18508633"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Romualdo Alinari"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1830-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2044"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1891-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2044"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18508704"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Viktor Angerer"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1839-10-03T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q837464"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1894-04-10T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1741"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18509122"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Ivo Bazzechi"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1920-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q13378"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1975-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2044"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18716069"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Soichi Sunami"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1885-02-18T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q132936"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1971-11-12T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18811896"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Pasquale De Antonis"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1908-04-04T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q13137"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "2001-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q220"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18934975"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Giuseppe Alinari"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1836-04-29T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2044"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1890-04-24T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2044"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q21176613"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Mortimer Offner"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1900-11-03T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1384"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1965-09-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q5660348"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Harold Corsini"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1919-08-28T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q60"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "2008-01-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q5813202"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Henry Vincent Kneuer"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1953-09-28T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q8810"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q6187840"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Jessie Tarbox Beals"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1870-12-23T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q133116"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1942-05-30T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q60"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q12025975"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Josef Ehm"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1909-08-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1018003"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1989-11-08T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1085"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q16164590"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Leopoldo Alinari"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1832-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2044"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1865-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2044"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q16622457"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Vittorio Ecclesia"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1847-02-11T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q10298"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1928-02-03T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q6122"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q16632909"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Anders Engman"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1933-09-21T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1754"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q16867239"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Jules Sylvestre"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1859-10-12T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q456"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1936-01-21T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q456"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q107030756"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Vittorio Villani"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1905-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1891"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1975-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1891"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q21542680"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Mauro Arceci"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q190584"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q22113142"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "George William Gibbs"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1937-01-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q23560875"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Ursula Edelmann"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1926-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q64"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q23560875"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Ursula Edelmann"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1926-03-30T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q64"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q24239722"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Pietro Poppi"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1833-04-29T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q95094"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1914-04-21T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1891"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q25939348"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Ernst Schwitters"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1918-11-16T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1715"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1996-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q585"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q26242203"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Otto Schmidt"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1849-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q6986"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1920-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1741"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q30127547"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Amerigo Lunghi"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1884-11-28T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q20103"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1952-05-11T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q30308623"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Morris Pach"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1837-04-03T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q64"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1914-03-29T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1010539"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q30308695"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Gustavus W. Pach"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1845-06-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q183"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1904-10-09T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q60"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q30308759"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Gotthelf Pach"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1852-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q64"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1925-04-17T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q60"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q43128341"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Mario Castagneri"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1892-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q6088"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1940-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q48444861"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Marjan Smerke"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1932-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q437"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "2017-06-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q51883685"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Véra Cardot"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1920-07-24T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1781"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "2003-08-31T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q208851"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q52156353"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Attilio Brisighelli"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1880-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2790"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1966-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2790"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q55679892"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Julius Scherb"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1881-01-17T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q41329"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1965-01-16T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1741"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q58242413"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Paolo Salviati"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1818-05-23T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q641"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1894-01-20T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q641"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q59575316"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Walter Steinkopf"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q59743982"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Hans Schiff"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1907-11-07T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q365"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1976-09-17T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q60"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q60236397"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "P. Steensma"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1879-07-18T00:00:00Z"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1931-03-05T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q727"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q60241073"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Adam Frequin"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1883-03-11T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1310"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1939-07-27T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q36600"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q61476278"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Gian Battista Colombo"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1921-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q641"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "2005-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q61482172"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Gian Sinigaglia"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1901-01-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q61992274"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Carlo Marcozzi"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1827-02-11T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q6285"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1883-02-18T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q102281349"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Mario Crimella"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q102281354"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Ferdinando Lembo"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q102281430"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Pietro Salvini"
+                },
+                "floruit": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1900-01-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q102281528"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Ettore Reale"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q102282749"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Achille Ferrario"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1848-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1914-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q102282921"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Claudio Emmer"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                },
+                "floruit": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1940-01-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q102282957"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Gianni Mari"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1926-01-01T00:00:00Z"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1971-01-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q103135077"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Gigi Bassani"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1894-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1930-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q105986035"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Giovanni Battista Brusa"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1830-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1920-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q106417607"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "William Edward Gray"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1864-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q84"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1935-09-04T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q84"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q106650408"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Dino Zani"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1891-12-18T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q2044"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1939-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q106650664"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Sydney W. Newbery"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1894-01-01T00:00:00Z"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1985-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q84"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q106652385"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Mario Sansoni"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1882-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1891"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1970-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1891"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q106653081"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Eraldo Alivernini"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q106936993"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Pietro Fiorentini"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1873-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q617"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1945-09-09T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q641"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q62572993"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Gabriel Moulin"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1872-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q16553"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1945-01-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q67294703"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Mario Perotti"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1909-10-10T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1999-03-11T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q75379946"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "A.J. Dingjan"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1927-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q41795540"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1985-01-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q84594380"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Charles Uht"
+                },
+                "floruit": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1973-01-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q85724045"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Photopress"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q85859399"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Studio Achille Villani & Figli"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q86137496"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Johann Mutter"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1902-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q59315035"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1974-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q494299"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q86736457"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Roland Devolder"
+                },
+                "floruit": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1936-01-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q95133787"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Ladislav Neubert"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1927-06-08T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1085"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q97940625"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Gad Borel"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1942-02-14T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q71"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q100138863"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Oscar Savio"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1912-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q617"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "2005-01-01T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q220"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q102075978"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Luigi Dubray"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1842-07-05T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1449"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1900-11-25T00:00:00Z"
+                },
+                "deathplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q102280849"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Achille Villani"
+                },
+                "birth": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1880-01-01T00:00:00Z"
+                },
+                "birthplace": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q1891"
+                },
+                "death": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "1945-01-01T00:00:00Z"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q102281190"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Ferruccio Sorgato"
+                }
+            }
+        ]
+    }
+}

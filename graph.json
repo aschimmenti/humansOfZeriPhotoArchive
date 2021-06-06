@@ -1,0 +1,1335 @@
+{
+    "directed": false,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "vote": "city",
+            "id": "Rome"
+        },
+        {
+            "vote": "person",
+            "id": "Pasquale De Antonis"
+        },
+        {
+            "vote": "person",
+            "id": "James Anderson"
+        },
+        {
+            "vote": "person",
+            "id": "Leopoldo Alinari"
+        },
+        {
+            "vote": "person",
+            "id": "Domenico Anderson"
+        },
+        {
+            "vote": "person",
+            "id": "Ettore Reale"
+        },
+        {
+            "vote": "person",
+            "id": "Romualdo Moscioni"
+        },
+        {
+            "vote": "person",
+            "id": "Francesco Giordani"
+        },
+        {
+            "vote": "person",
+            "id": "Luigi Vaghi"
+        },
+        {
+            "vote": "person",
+            "id": "Adolphe Braun"
+        },
+        {
+            "vote": "person",
+            "id": "Eraldo Alivernini"
+        },
+        {
+            "vote": "person",
+            "id": "Oscar Savio"
+        },
+        {
+            "vote": "person",
+            "id": "Romualdo Alinari"
+        },
+        {
+            "vote": "person",
+            "id": "Giuseppe Alinari"
+        },
+        {
+            "vote": "city",
+            "id": "Bologna"
+        },
+        {
+            "vote": "person",
+            "id": "Pietro Poppi"
+        },
+        {
+            "vote": "person",
+            "id": "Mario Sansoni"
+        },
+        {
+            "vote": "person",
+            "id": "Pietro Fiorentini"
+        },
+        {
+            "vote": "city",
+            "id": "Milan"
+        },
+        {
+            "vote": "person",
+            "id": "Mario Castagneri"
+        },
+        {
+            "vote": "person",
+            "id": "Claudio Emmer"
+        },
+        {
+            "vote": "person",
+            "id": "Luigi Dubray"
+        },
+        {
+            "vote": "person",
+            "id": "Gianni Mari"
+        },
+        {
+            "vote": "person",
+            "id": "Mario Crimella"
+        },
+        {
+            "vote": "person",
+            "id": "Achille Ferrario"
+        },
+        {
+            "vote": "person",
+            "id": "Elio Ciol"
+        },
+        {
+            "vote": "person",
+            "id": "Gigi Bassani"
+        },
+        {
+            "vote": "person",
+            "id": "Emilio Sommariva"
+        },
+        {
+            "vote": "person",
+            "id": "Dino Zani"
+        },
+        {
+            "vote": "person",
+            "id": "Paolo Monti"
+        },
+        {
+            "vote": "person",
+            "id": "Carlo Marcozzi"
+        },
+        {
+            "vote": "person",
+            "id": "Mario Perotti"
+        },
+        {
+            "vote": "person",
+            "id": "Gian Battista Colombo"
+        },
+        {
+            "vote": "person",
+            "id": "Giovanni Battista Brusa"
+        },
+        {
+            "vote": "city",
+            "id": "Geneva"
+        },
+        {
+            "vote": "person",
+            "id": "Gad Borel"
+        },
+        {
+            "vote": "city",
+            "id": "New York City"
+        },
+        {
+            "vote": "person",
+            "id": "Soichi Sunami"
+        },
+        {
+            "vote": "person",
+            "id": "Hans Schiff"
+        },
+        {
+            "vote": "person",
+            "id": "Mortimer Offner"
+        },
+        {
+            "vote": "person",
+            "id": "Harold Corsini"
+        },
+        {
+            "vote": "person",
+            "id": "Charles Uht"
+        },
+        {
+            "vote": "person",
+            "id": "Jessie Tarbox Beals"
+        },
+        {
+            "vote": "city",
+            "id": "The Hague"
+        },
+        {
+            "vote": "person",
+            "id": "Adam Frequin"
+        },
+        {
+            "vote": "person",
+            "id": "A.J. Dingjan"
+        },
+        {
+            "vote": "city",
+            "id": "Florence"
+        },
+        {
+            "vote": "person",
+            "id": "Giacomo Brogi"
+        },
+        {
+            "vote": "person",
+            "id": "Pietro Salvini"
+        },
+        {
+            "vote": "person",
+            "id": "Ivo Bazzechi"
+        },
+        {
+            "vote": "city",
+            "id": "Copenhagen"
+        },
+        {
+            "vote": "person",
+            "id": "Peter Elfelt"
+        },
+        {
+            "vote": "city",
+            "id": "Seattle"
+        },
+        {
+            "vote": "city",
+            "id": "Berlin"
+        },
+        {
+            "vote": "person",
+            "id": "Ursula Edelmann"
+        },
+        {
+            "vote": "city",
+            "id": "Amsterdam"
+        },
+        {
+            "vote": "person",
+            "id": "Bernard F. Eilers"
+        },
+        {
+            "vote": "person",
+            "id": "P. Steensma"
+        },
+        {
+            "vote": "city",
+            "id": "Paris"
+        },
+        {
+            "vote": "person",
+            "id": "Jacques Ernest Bulloz"
+        },
+        {
+            "vote": "person",
+            "id": "Henri Manuel"
+        },
+        {
+            "vote": "person",
+            "id": "Paul Robert"
+        },
+        {
+            "vote": "person",
+            "id": "Charles-Fran\u00e7ois Daubigny"
+        },
+        {
+            "vote": "person",
+            "id": "F\u00e9licien Rops"
+        },
+        {
+            "vote": "city",
+            "id": "Frankfurt am Main"
+        },
+        {
+            "vote": "city",
+            "id": "Modena"
+        },
+        {
+            "vote": "person",
+            "id": "Ferruccio Sorgato"
+        },
+        {
+            "vote": "city",
+            "id": "Budapest"
+        },
+        {
+            "vote": "person",
+            "id": "V\u00e9ra Cardot"
+        },
+        {
+            "vote": "person",
+            "id": "Rudolf Balogh"
+        },
+        {
+            "vote": "city",
+            "id": "Naples"
+        },
+        {
+            "vote": "person",
+            "id": "Ferdinando Lembo"
+        },
+        {
+            "vote": "person",
+            "id": "Giorgio Sommer"
+        },
+        {
+            "vote": "city",
+            "id": "Udine"
+        },
+        {
+            "vote": "person",
+            "id": "Attilio Brisighelli"
+        },
+        {
+            "vote": "city",
+            "id": "Venice"
+        },
+        {
+            "vote": "person",
+            "id": "Carlo Naya"
+        },
+        {
+            "vote": "person",
+            "id": "Tomaso Filippi"
+        },
+        {
+            "vote": "person",
+            "id": "Paolo Salviati"
+        },
+        {
+            "vote": "city",
+            "id": "Ljubljana"
+        },
+        {
+            "vote": "person",
+            "id": "Marjan Smerke"
+        },
+        {
+            "vote": "city",
+            "id": "London"
+        },
+        {
+            "vote": "person",
+            "id": "William Edward Gray"
+        },
+        {
+            "vote": "person",
+            "id": "Emery Walker"
+        },
+        {
+            "vote": "person",
+            "id": "Sydney W. Newbery"
+        },
+        {
+            "vote": "city",
+            "id": "Casale Monferrato"
+        },
+        {
+            "vote": "person",
+            "id": "Francesco Negri"
+        },
+        {
+            "vote": "city",
+            "id": "Lake District"
+        },
+        {
+            "vote": "person",
+            "id": "Kurt Schwitters"
+        },
+        {
+            "vote": "city",
+            "id": "Vienna"
+        },
+        {
+            "vote": "person",
+            "id": "Otto Schmidt"
+        },
+        {
+            "vote": "person",
+            "id": "Martin Gerlach"
+        },
+        {
+            "vote": "person",
+            "id": "Viktor Angerer"
+        },
+        {
+            "vote": "person",
+            "id": "Julius Scherb"
+        },
+        {
+            "vote": "city",
+            "id": "Hjert\u00f8ya"
+        },
+        {
+            "vote": "city",
+            "id": "Palestine"
+        },
+        {
+            "vote": "city",
+            "id": "Landsberg"
+        },
+        {
+            "vote": "person",
+            "id": "Johann Mutter"
+        },
+        {
+            "vote": "city",
+            "id": "Assisi"
+        },
+        {
+            "vote": "city",
+            "id": "Prague"
+        },
+        {
+            "vote": "person",
+            "id": "Josef Ehm"
+        },
+        {
+            "vote": "person",
+            "id": "Ladislav Neubert"
+        },
+        {
+            "vote": "city",
+            "id": "L\u00fcbeck"
+        },
+        {
+            "vote": "person",
+            "id": "Wilhelm Castelli"
+        },
+        {
+            "vote": "city",
+            "id": "Parma"
+        },
+        {
+            "vote": "person",
+            "id": "Libero Tosi"
+        },
+        {
+            "vote": "city",
+            "id": "Vatican City"
+        },
+        {
+            "vote": "city",
+            "id": "Dresden"
+        },
+        {
+            "vote": "person",
+            "id": "Franz Hanfstaengl"
+        },
+        {
+            "vote": "city",
+            "id": "Munich"
+        },
+        {
+            "vote": "person",
+            "id": "Franz von Lenbach"
+        },
+        {
+            "vote": "person",
+            "id": "Henry Vincent Kneuer"
+        },
+        {
+            "vote": "city",
+            "id": "North Shore"
+        },
+        {
+            "vote": "person",
+            "id": "Vivian Maier"
+        },
+        {
+            "vote": "city",
+            "id": "Buenos Aires"
+        },
+        {
+            "vote": "person",
+            "id": "Grete Stern"
+        },
+        {
+            "vote": "city",
+            "id": "Turin"
+        },
+        {
+            "vote": "person",
+            "id": "Vittorio Ecclesia"
+        },
+        {
+            "vote": "city",
+            "id": "Great Britain"
+        },
+        {
+            "vote": "city",
+            "id": "Asmara"
+        },
+        {
+            "vote": "city",
+            "id": "Philadelphia"
+        },
+        {
+            "vote": "person",
+            "id": "Joseph Janney Steinmetz"
+        },
+        {
+            "vote": "city",
+            "id": "Florida"
+        },
+        {
+            "vote": "city",
+            "id": "Stockholm"
+        },
+        {
+            "vote": "person",
+            "id": "Anders Engman"
+        },
+        {
+            "vote": "city",
+            "id": "Friuli-Venezia Giulia"
+        },
+        {
+            "vote": "city",
+            "id": "Lyon"
+        },
+        {
+            "vote": "person",
+            "id": "Jules Sylvestre"
+        },
+        {
+            "vote": "city",
+            "id": "Suriname"
+        },
+        {
+            "vote": "city",
+            "id": "Hollywood"
+        },
+        {
+            "vote": "city",
+            "id": "Stresa"
+        },
+        {
+            "vote": "city",
+            "id": "Lysaker"
+        },
+        {
+            "vote": "city",
+            "id": "Pavia"
+        },
+        {
+            "vote": "person",
+            "id": "Guglielmo Chiolini"
+        },
+        {
+            "vote": "city",
+            "id": "Aosta Valley"
+        },
+        {
+            "vote": "city",
+            "id": "Ticino"
+        },
+        {
+            "vote": "city",
+            "id": "San Francisco"
+        },
+        {
+            "vote": "person",
+            "id": "Gabriel Moulin"
+        },
+        {
+            "vote": "city",
+            "id": "City of Brussels"
+        },
+        {
+            "vote": "person",
+            "id": "Roland Devolder"
+        },
+        {
+            "vote": "city",
+            "id": "Oslo"
+        },
+        {
+            "vote": "person",
+            "id": "Ernst Schwitters"
+        },
+        {
+            "vote": "city",
+            "id": "Hanover"
+        },
+        {
+            "vote": "city",
+            "id": "Urbino"
+        },
+        {
+            "vote": "person",
+            "id": "Mauro Arceci"
+        },
+        {
+            "vote": "city",
+            "id": "Argentina"
+        },
+        {
+            "vote": "person",
+            "id": "Amerigo Lunghi"
+        },
+        {
+            "vote": "city",
+            "id": "Perugia"
+        },
+        {
+            "vote": "city",
+            "id": "Pittsburgh"
+        },
+        {
+            "vote": "city",
+            "id": "Padua"
+        },
+        {
+            "vote": "city",
+            "id": "Siena"
+        },
+        {
+            "vote": "person",
+            "id": "Paolo Lombardi"
+        },
+        {
+            "vote": "city",
+            "id": "Kamerun"
+        },
+        {
+            "vote": "person",
+            "id": "Walter Steinkopf"
+        },
+        {
+            "vote": "city",
+            "id": "Granada"
+        },
+        {
+            "vote": "city",
+            "id": "Papal States"
+        },
+        {
+            "vote": "city",
+            "id": "Massachusetts"
+        },
+        {
+            "vote": "city",
+            "id": "Palermo"
+        },
+        {
+            "vote": "person",
+            "id": "Giuseppe Incorpora"
+        }
+    ],
+    "links": [
+        {
+            "source": "Rome",
+            "target": "Pasquale De Antonis",
+            "key": 0
+        },
+        {
+            "source": "Rome",
+            "target": "James Anderson",
+            "key": 0
+        },
+        {
+            "source": "Rome",
+            "target": "Leopoldo Alinari",
+            "key": 0
+        },
+        {
+            "source": "Rome",
+            "target": "Domenico Anderson",
+            "key": 0
+        },
+        {
+            "source": "Rome",
+            "target": "Ettore Reale",
+            "key": 0
+        },
+        {
+            "source": "Rome",
+            "target": "Romualdo Moscioni",
+            "key": 0
+        },
+        {
+            "source": "Rome",
+            "target": "Francesco Giordani",
+            "key": 0
+        },
+        {
+            "source": "Rome",
+            "target": "Luigi Vaghi",
+            "key": 0
+        },
+        {
+            "source": "Rome",
+            "target": "Adolphe Braun",
+            "key": 0
+        },
+        {
+            "source": "Rome",
+            "target": "Eraldo Alivernini",
+            "key": 0
+        },
+        {
+            "source": "Rome",
+            "target": "Oscar Savio",
+            "key": 0
+        },
+        {
+            "source": "Rome",
+            "target": "Romualdo Alinari",
+            "key": 0
+        },
+        {
+            "source": "Rome",
+            "target": "Giuseppe Alinari",
+            "key": 0
+        },
+        {
+            "source": "Pasquale De Antonis",
+            "target": "Bologna",
+            "key": 0
+        },
+        {
+            "source": "Leopoldo Alinari",
+            "target": "Florence",
+            "key": 0
+        },
+        {
+            "source": "Leopoldo Alinari",
+            "target": "Naples",
+            "key": 0
+        },
+        {
+            "source": "Domenico Anderson",
+            "target": "Venice",
+            "key": 0
+        },
+        {
+            "source": "Francesco Giordani",
+            "target": "Vatican City",
+            "key": 0
+        },
+        {
+            "source": "Luigi Vaghi",
+            "target": "Parma",
+            "key": 0
+        },
+        {
+            "source": "Luigi Vaghi",
+            "target": "Turin",
+            "key": 0
+        },
+        {
+            "source": "Luigi Vaghi",
+            "target": "Asmara",
+            "key": 0
+        },
+        {
+            "source": "Adolphe Braun",
+            "target": "Paris",
+            "key": 0
+        },
+        {
+            "source": "Adolphe Braun",
+            "target": "Papal States",
+            "key": 0
+        },
+        {
+            "source": "Romualdo Alinari",
+            "target": "Milan",
+            "key": 0
+        },
+        {
+            "source": "Romualdo Alinari",
+            "target": "Florence",
+            "key": 0
+        },
+        {
+            "source": "Romualdo Alinari",
+            "target": "Naples",
+            "key": 0
+        },
+        {
+            "source": "Giuseppe Alinari",
+            "target": "Milan",
+            "key": 0
+        },
+        {
+            "source": "Giuseppe Alinari",
+            "target": "Florence",
+            "key": 0
+        },
+        {
+            "source": "Giuseppe Alinari",
+            "target": "Naples",
+            "key": 0
+        },
+        {
+            "source": "Bologna",
+            "target": "Pietro Poppi",
+            "key": 0
+        },
+        {
+            "source": "Bologna",
+            "target": "Mario Sansoni",
+            "key": 0
+        },
+        {
+            "source": "Bologna",
+            "target": "Pietro Fiorentini",
+            "key": 0
+        },
+        {
+            "source": "Mario Sansoni",
+            "target": "Assisi",
+            "key": 0
+        },
+        {
+            "source": "Pietro Fiorentini",
+            "target": "Modena",
+            "key": 0
+        },
+        {
+            "source": "Pietro Fiorentini",
+            "target": "Venice",
+            "key": 0
+        },
+        {
+            "source": "Pietro Fiorentini",
+            "target": "Padua",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Mario Castagneri",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Claudio Emmer",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Luigi Dubray",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Gianni Mari",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Mario Crimella",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Achille Ferrario",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Elio Ciol",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Gigi Bassani",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Emilio Sommariva",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Dino Zani",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Paolo Monti",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Carlo Marcozzi",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Mario Perotti",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Gian Battista Colombo",
+            "key": 0
+        },
+        {
+            "source": "Milan",
+            "target": "Giovanni Battista Brusa",
+            "key": 0
+        },
+        {
+            "source": "Elio Ciol",
+            "target": "Venice",
+            "key": 0
+        },
+        {
+            "source": "Elio Ciol",
+            "target": "Palestine",
+            "key": 0
+        },
+        {
+            "source": "Elio Ciol",
+            "target": "Assisi",
+            "key": 0
+        },
+        {
+            "source": "Elio Ciol",
+            "target": "Friuli-Venezia Giulia",
+            "key": 0
+        },
+        {
+            "source": "Paolo Monti",
+            "target": "Venice",
+            "key": 0
+        },
+        {
+            "source": "Giovanni Battista Brusa",
+            "target": "Venice",
+            "key": 0
+        },
+        {
+            "source": "Geneva",
+            "target": "Gad Borel",
+            "key": 0
+        },
+        {
+            "source": "New York City",
+            "target": "Soichi Sunami",
+            "key": 0
+        },
+        {
+            "source": "New York City",
+            "target": "Hans Schiff",
+            "key": 0
+        },
+        {
+            "source": "New York City",
+            "target": "Mortimer Offner",
+            "key": 0
+        },
+        {
+            "source": "New York City",
+            "target": "Harold Corsini",
+            "key": 0
+        },
+        {
+            "source": "New York City",
+            "target": "Charles Uht",
+            "key": 0
+        },
+        {
+            "source": "New York City",
+            "target": "Jessie Tarbox Beals",
+            "key": 0
+        },
+        {
+            "source": "Soichi Sunami",
+            "target": "Seattle",
+            "key": 0
+        },
+        {
+            "source": "Mortimer Offner",
+            "target": "Hollywood",
+            "key": 0
+        },
+        {
+            "source": "Harold Corsini",
+            "target": "Pittsburgh",
+            "key": 0
+        },
+        {
+            "source": "Jessie Tarbox Beals",
+            "target": "Massachusetts",
+            "key": 0
+        },
+        {
+            "source": "The Hague",
+            "target": "Adam Frequin",
+            "key": 0
+        },
+        {
+            "source": "The Hague",
+            "target": "A.J. Dingjan",
+            "key": 0
+        },
+        {
+            "source": "A.J. Dingjan",
+            "target": "Suriname",
+            "key": 0
+        },
+        {
+            "source": "Florence",
+            "target": "Giacomo Brogi",
+            "key": 0
+        },
+        {
+            "source": "Florence",
+            "target": "Pietro Salvini",
+            "key": 0
+        },
+        {
+            "source": "Florence",
+            "target": "Ivo Bazzechi",
+            "key": 0
+        },
+        {
+            "source": "Copenhagen",
+            "target": "Peter Elfelt",
+            "key": 0
+        },
+        {
+            "source": "Berlin",
+            "target": "Ursula Edelmann",
+            "key": 0
+        },
+        {
+            "source": "Ursula Edelmann",
+            "target": "Frankfurt am Main",
+            "key": 0
+        },
+        {
+            "source": "Amsterdam",
+            "target": "Bernard F. Eilers",
+            "key": 0
+        },
+        {
+            "source": "Amsterdam",
+            "target": "P. Steensma",
+            "key": 0
+        },
+        {
+            "source": "Paris",
+            "target": "Jacques Ernest Bulloz",
+            "key": 0
+        },
+        {
+            "source": "Paris",
+            "target": "Henri Manuel",
+            "key": 0
+        },
+        {
+            "source": "Paris",
+            "target": "Paul Robert",
+            "key": 0
+        },
+        {
+            "source": "Paris",
+            "target": "Charles-Fran\u00e7ois Daubigny",
+            "key": 0
+        },
+        {
+            "source": "Paris",
+            "target": "F\u00e9licien Rops",
+            "key": 0
+        },
+        {
+            "source": "Charles-Fran\u00e7ois Daubigny",
+            "target": "London",
+            "key": 0
+        },
+        {
+            "source": "Modena",
+            "target": "Ferruccio Sorgato",
+            "key": 0
+        },
+        {
+            "source": "Budapest",
+            "target": "V\u00e9ra Cardot",
+            "key": 0
+        },
+        {
+            "source": "Budapest",
+            "target": "Rudolf Balogh",
+            "key": 0
+        },
+        {
+            "source": "Naples",
+            "target": "Ferdinando Lembo",
+            "key": 0
+        },
+        {
+            "source": "Naples",
+            "target": "Giorgio Sommer",
+            "key": 0
+        },
+        {
+            "source": "Udine",
+            "target": "Attilio Brisighelli",
+            "key": 0
+        },
+        {
+            "source": "Venice",
+            "target": "Carlo Naya",
+            "key": 0
+        },
+        {
+            "source": "Venice",
+            "target": "Tomaso Filippi",
+            "key": 0
+        },
+        {
+            "source": "Venice",
+            "target": "Paolo Salviati",
+            "key": 0
+        },
+        {
+            "source": "Ljubljana",
+            "target": "Marjan Smerke",
+            "key": 0
+        },
+        {
+            "source": "London",
+            "target": "William Edward Gray",
+            "key": 0
+        },
+        {
+            "source": "London",
+            "target": "Emery Walker",
+            "key": 0
+        },
+        {
+            "source": "London",
+            "target": "Sydney W. Newbery",
+            "key": 0
+        },
+        {
+            "source": "Casale Monferrato",
+            "target": "Francesco Negri",
+            "key": 0
+        },
+        {
+            "source": "Lake District",
+            "target": "Kurt Schwitters",
+            "key": 0
+        },
+        {
+            "source": "Kurt Schwitters",
+            "target": "Hjert\u00f8ya",
+            "key": 0
+        },
+        {
+            "source": "Kurt Schwitters",
+            "target": "Lysaker",
+            "key": 0
+        },
+        {
+            "source": "Vienna",
+            "target": "Otto Schmidt",
+            "key": 0
+        },
+        {
+            "source": "Vienna",
+            "target": "Martin Gerlach",
+            "key": 0
+        },
+        {
+            "source": "Vienna",
+            "target": "Viktor Angerer",
+            "key": 0
+        },
+        {
+            "source": "Vienna",
+            "target": "Julius Scherb",
+            "key": 0
+        },
+        {
+            "source": "Landsberg",
+            "target": "Johann Mutter",
+            "key": 0
+        },
+        {
+            "source": "Prague",
+            "target": "Josef Ehm",
+            "key": 0
+        },
+        {
+            "source": "Prague",
+            "target": "Ladislav Neubert",
+            "key": 0
+        },
+        {
+            "source": "L\u00fcbeck",
+            "target": "Wilhelm Castelli",
+            "key": 0
+        },
+        {
+            "source": "Parma",
+            "target": "Libero Tosi",
+            "key": 0
+        },
+        {
+            "source": "Libero Tosi",
+            "target": "Stresa",
+            "key": 0
+        },
+        {
+            "source": "Dresden",
+            "target": "Franz Hanfstaengl",
+            "key": 0
+        },
+        {
+            "source": "Franz Hanfstaengl",
+            "target": "Munich",
+            "key": 0
+        },
+        {
+            "source": "Munich",
+            "target": "Franz von Lenbach",
+            "key": 0
+        },
+        {
+            "source": "Munich",
+            "target": "Henry Vincent Kneuer",
+            "key": 0
+        },
+        {
+            "source": "Henry Vincent Kneuer",
+            "target": "Granada",
+            "key": 0
+        },
+        {
+            "source": "North Shore",
+            "target": "Vivian Maier",
+            "key": 0
+        },
+        {
+            "source": "Buenos Aires",
+            "target": "Grete Stern",
+            "key": 0
+        },
+        {
+            "source": "Grete Stern",
+            "target": "Great Britain",
+            "key": 0
+        },
+        {
+            "source": "Turin",
+            "target": "Vittorio Ecclesia",
+            "key": 0
+        },
+        {
+            "source": "Vittorio Ecclesia",
+            "target": "Aosta Valley",
+            "key": 0
+        },
+        {
+            "source": "Philadelphia",
+            "target": "Joseph Janney Steinmetz",
+            "key": 0
+        },
+        {
+            "source": "Joseph Janney Steinmetz",
+            "target": "Florida",
+            "key": 0
+        },
+        {
+            "source": "Stockholm",
+            "target": "Anders Engman",
+            "key": 0
+        },
+        {
+            "source": "Lyon",
+            "target": "Jules Sylvestre",
+            "key": 0
+        },
+        {
+            "source": "Pavia",
+            "target": "Guglielmo Chiolini",
+            "key": 0
+        },
+        {
+            "source": "Guglielmo Chiolini",
+            "target": "Ticino",
+            "key": 0
+        },
+        {
+            "source": "San Francisco",
+            "target": "Gabriel Moulin",
+            "key": 0
+        },
+        {
+            "source": "City of Brussels",
+            "target": "Roland Devolder",
+            "key": 0
+        },
+        {
+            "source": "Oslo",
+            "target": "Ernst Schwitters",
+            "key": 0
+        },
+        {
+            "source": "Ernst Schwitters",
+            "target": "Hanover",
+            "key": 0
+        },
+        {
+            "source": "Urbino",
+            "target": "Mauro Arceci",
+            "key": 0
+        },
+        {
+            "source": "Argentina",
+            "target": "Amerigo Lunghi",
+            "key": 0
+        },
+        {
+            "source": "Amerigo Lunghi",
+            "target": "Perugia",
+            "key": 0
+        },
+        {
+            "source": "Siena",
+            "target": "Paolo Lombardi",
+            "key": 0
+        },
+        {
+            "source": "Kamerun",
+            "target": "Walter Steinkopf",
+            "key": 0
+        },
+        {
+            "source": "Palermo",
+            "target": "Giuseppe Incorpora",
+            "key": 0
+        }
+    ]
+}
