@@ -17,6 +17,7 @@ import ssl
 import csv
 
 ssl._create_default_https_context = ssl._create_unverified_context
+#do not use
 def to_text(path):
     final_text = list()
     with open(path, newline='') as csvfile:
@@ -34,16 +35,6 @@ def to_text(path):
 def save_to_file(content, filename):
     with open(filename, 'w') as file:
         file.write(content)
-
-def reverse_string(string): 
-    comma = ', '
-    string_to_join = ''
-    if comma in string: 
-        x = string.split(", ")
-        string_to_join = str(x[1]) + ' '+ str(x[0])
-        return string_to_join
-    else: 
-        return string
 
 def reverse_string(string): 
     comma = ', '
