@@ -60,7 +60,7 @@ def afterparty_trash(filename, data_to_write):
         json.dump(data_to_write, outfile)
 ##################################################################################
 
-name_file = open('json_files/final_photographer_Q5.json')
+name_file = open('py_files/json_files/final_photographer_Q5.json')
 data = json.load(name_file)
 uris = suit_for_SPARQL_dinner(invitation_list(data, "photographer"))
 string_uris = ' '.join(uris)
@@ -97,7 +97,7 @@ print(new_string_uris)
 
 #now let's see the citizenships of the new uris selected
 citizenships_query= """
-select ?photographer ?label (group_concat(?citizenship) as ?citizenships)
+select ?photographer ?label (group_concat(?citizenship) as ?citizenships) ?worklocation
 where {VALUES ?photographer {""" + new_string_uris + """}
     ?photographer rdfs:label ?label .
     FILTER(LANG(?label) = "en").  
@@ -110,7 +110,7 @@ group by ?photographer ?label
 sparql.setQuery(citizenships_query)
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
-afterparty_trash('py_files/json_files/citizenships.json', results)
+afterparty_trash('py_files/json_files/worklocation_birth.json', results)
 
 #let's check the dates related to the new uris 
 

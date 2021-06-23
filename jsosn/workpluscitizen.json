@@ -3,56 +3,12 @@
         "vars": [
             "photographer",
             "label",
-            "citizenships"
+            "citizenships",
+            "worklocations"
         ]
     },
     "results": {
         "bindings": [
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q200890"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Vivian Maier"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q30"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q215618"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Grete Stern"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q183 http://www.wikidata.org/entity/Q414"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q252357"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Charles-Fran\u00e7ois Daubigny"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q142"
-                }
-            },
             {
                 "photographer": {
                     "type": "uri",
@@ -65,7 +21,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q183 http://www.wikidata.org/entity/Q172579"
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q2634"
                 }
             },
             {
@@ -81,6 +41,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q183"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q2843"
                 }
             },
             {
@@ -95,7 +59,68 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q183"
+                    "value": "http://www.wikidata.org/entity/Q183 http://www.wikidata.org/entity/Q183 http://www.wikidata.org/entity/Q183"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q211778 http://www.wikidata.org/entity/Q1503983 http://www.wikidata.org/entity/Q3429899"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q200890"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Vivian Maier"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q30"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q2899541"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q215618"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Grete Stern"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q183 http://www.wikidata.org/entity/Q414 http://www.wikidata.org/entity/Q183 http://www.wikidata.org/entity/Q414"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1486 http://www.wikidata.org/entity/Q1486 http://www.wikidata.org/entity/Q23666 http://www.wikidata.org/entity/Q23666"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q252357"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Charles-François Daubigny"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q142 http://www.wikidata.org/entity/Q142"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q84 http://www.wikidata.org/entity/Q90"
                 }
             },
             {
@@ -111,6 +136,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q145"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q84"
                 }
             },
             {
@@ -125,7 +154,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q142"
+                    "value": "http://www.wikidata.org/entity/Q142 http://www.wikidata.org/entity/Q142 http://www.wikidata.org/entity/Q142"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q90 http://www.wikidata.org/entity/Q220 http://www.wikidata.org/entity/Q170174"
                 }
             },
             {
@@ -136,11 +169,15 @@
                 "label": {
                     "xml:lang": "en",
                     "type": "literal",
-                    "value": "F\u00e9licien Rops"
+                    "value": "Félicien Rops"
                 },
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q31"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q90"
                 }
             },
             {
@@ -156,6 +193,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q165154 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q641 http://www.wikidata.org/entity/Q641"
                 }
             },
             {
@@ -171,6 +212,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q183 http://www.wikidata.org/entity/Q154195"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1726 http://www.wikidata.org/entity/Q1726"
                 }
             },
             {
@@ -185,7 +230,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q154195"
+                    "value": "http://www.wikidata.org/entity/Q154195 http://www.wikidata.org/entity/Q154195"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1726 http://www.wikidata.org/entity/Q1731"
                 }
             },
             {
@@ -201,6 +250,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q28"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1781"
                 }
             },
             {
@@ -216,6 +269,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q38"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q641"
                 }
             },
             {
@@ -231,6 +288,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q40"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1741"
                 }
             },
             {
@@ -246,6 +307,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q27306"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": ""
                 }
             },
             {
@@ -261,6 +326,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q2044"
                 }
             },
             {
@@ -276,6 +345,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q2751"
                 }
             },
             {
@@ -291,6 +364,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q29999"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q727"
                 }
             },
             {
@@ -305,7 +382,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q172579"
+                    "value": "http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q220 http://www.wikidata.org/entity/Q641"
                 }
             },
             {
@@ -321,6 +402,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q16333"
                 }
             },
             {
@@ -336,6 +421,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q35"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1748"
                 }
             },
             {
@@ -351,6 +440,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q142"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q90"
                 }
             },
             {
@@ -366,6 +459,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q142"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q90"
                 }
             },
             {
@@ -381,6 +478,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q145 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q220 http://www.wikidata.org/entity/Q220"
                 }
             },
             {
@@ -396,6 +497,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q220"
                 }
             },
             {
@@ -410,7 +515,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q38"
+                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q38"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490 http://www.wikidata.org/entity/Q641 http://www.wikidata.org/entity/Q1250 http://www.wikidata.org/entity/Q20103 http://www.wikidata.org/entity/Q23792"
                 }
             },
             {
@@ -426,6 +535,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490 http://www.wikidata.org/entity/Q490"
                 }
             },
             {
@@ -440,7 +553,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q220 http://www.wikidata.org/entity/Q220 http://www.wikidata.org/entity/Q237 http://www.wikidata.org/entity/Q237"
                 }
             },
             {
@@ -455,7 +572,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q2683 http://www.wikidata.org/entity/Q2683 http://www.wikidata.org/entity/Q23700 http://www.wikidata.org/entity/Q23700"
                 }
             },
             {
@@ -471,6 +592,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q34"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1754"
                 }
             },
             {
@@ -486,6 +611,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q142"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q456"
                 }
             },
             {
@@ -500,7 +629,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q30"
+                    "value": "http://www.wikidata.org/entity/Q30 http://www.wikidata.org/entity/Q30"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q812 http://www.wikidata.org/entity/Q1345"
                 }
             },
             {
@@ -516,6 +649,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q142"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q90"
                 }
             },
             {
@@ -530,7 +667,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q6259 http://www.wikidata.org/entity/Q6259 http://www.wikidata.org/entity/Q12724 http://www.wikidata.org/entity/Q12724"
                 }
             },
             {
@@ -545,7 +686,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490 http://www.wikidata.org/entity/Q490 http://www.wikidata.org/entity/Q641 http://www.wikidata.org/entity/Q641"
                 }
             },
             {
@@ -560,7 +705,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q172579"
+                    "value": "http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q220 http://www.wikidata.org/entity/Q490 http://www.wikidata.org/entity/Q2044 http://www.wikidata.org/entity/Q2634"
                 }
             },
             {
@@ -576,6 +725,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": ""
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1741"
                 }
             },
             {
@@ -591,6 +744,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q2044 http://www.wikidata.org/entity/Q2044"
                 }
             },
             {
@@ -605,7 +762,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q220 http://www.wikidata.org/entity/Q220 http://www.wikidata.org/entity/Q495 http://www.wikidata.org/entity/Q495 http://www.wikidata.org/entity/Q2683 http://www.wikidata.org/entity/Q2683 http://www.wikidata.org/entity/Q3642 http://www.wikidata.org/entity/Q3642"
                 }
             },
             {
@@ -620,7 +781,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q30"
+                    "value": "http://www.wikidata.org/entity/Q30 http://www.wikidata.org/entity/Q30"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q60 http://www.wikidata.org/entity/Q1342"
                 }
             },
             {
@@ -635,7 +800,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q30"
+                    "value": "http://www.wikidata.org/entity/Q30 http://www.wikidata.org/entity/Q30"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1726 http://www.wikidata.org/entity/Q8810"
                 }
             },
             {
@@ -650,7 +819,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q30"
+                    "value": "http://www.wikidata.org/entity/Q30 http://www.wikidata.org/entity/Q30"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q60 http://www.wikidata.org/entity/Q771"
                 }
             },
             {
@@ -666,6 +839,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q33946"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1085"
                 }
             },
             {
@@ -680,7 +857,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q172579"
+                    "value": "http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q220 http://www.wikidata.org/entity/Q2044 http://www.wikidata.org/entity/Q2634"
                 }
             },
             {
@@ -695,7 +876,277 @@
                 },
                 "citizenships": {
                     "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q495 http://www.wikidata.org/entity/Q1222"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18716069"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Soichi Sunami"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q17 http://www.wikidata.org/entity/Q17"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q60 http://www.wikidata.org/entity/Q5083"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18811896"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Pasquale De Antonis"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q220 http://www.wikidata.org/entity/Q220 http://www.wikidata.org/entity/Q1891 http://www.wikidata.org/entity/Q1891"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q18934975"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Giuseppe Alinari"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q220 http://www.wikidata.org/entity/Q490 http://www.wikidata.org/entity/Q2044 http://www.wikidata.org/entity/Q2634"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q21176613"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Mortimer Offner"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q30 http://www.wikidata.org/entity/Q30"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q60 http://www.wikidata.org/entity/Q34006"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q21542680"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Mauro Arceci"
+                },
+                "citizenships": {
+                    "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q2759"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q22113142"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "George William Gibbs"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q664"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": ""
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q23560875"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Ursula Edelmann"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q183 http://www.wikidata.org/entity/Q183"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q64 http://www.wikidata.org/entity/Q1794"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q24239722"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Pietro Poppi"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1891"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q25939348"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Ernst Schwitters"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q20 http://www.wikidata.org/entity/Q183 http://www.wikidata.org/entity/Q20 http://www.wikidata.org/entity/Q183"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q585 http://www.wikidata.org/entity/Q585 http://www.wikidata.org/entity/Q1715 http://www.wikidata.org/entity/Q1715"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q26242203"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Otto Schmidt"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": ""
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1741"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q30127547"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Amerigo Lunghi"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q414 http://www.wikidata.org/entity/Q414 http://www.wikidata.org/entity/Q3437 http://www.wikidata.org/entity/Q3437"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q43128341"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Mario Castagneri"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q48444861"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Marjan Smerke"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q215 http://www.wikidata.org/entity/Q83286 http://www.wikidata.org/entity/Q191077"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q437 http://www.wikidata.org/entity/Q437 http://www.wikidata.org/entity/Q437"
+                }
+            },
+            {
+                "photographer": {
+                    "type": "uri",
+                    "value": "http://www.wikidata.org/entity/Q51883685"
+                },
+                "label": {
+                    "xml:lang": "en",
+                    "type": "literal",
+                    "value": "Véra Cardot"
+                },
+                "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q142"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1781"
                 }
             },
             {
@@ -710,7 +1161,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q220"
                 }
             },
             {
@@ -725,7 +1180,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q172579"
+                    "value": "http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q279 http://www.wikidata.org/entity/Q617 http://www.wikidata.org/entity/Q641 http://www.wikidata.org/entity/Q1891"
                 }
             },
             {
@@ -740,7 +1199,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q2790"
                 }
             },
             {
@@ -756,6 +1219,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q2656"
                 }
             },
             {
@@ -770,7 +1237,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q40"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1741"
                 }
             },
             {
@@ -786,6 +1257,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q641"
                 }
             },
             {
@@ -800,7 +1275,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q183 http://www.wikidata.org/entity/Q183"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q64 http://www.wikidata.org/entity/Q668294"
                 }
             },
             {
@@ -816,6 +1295,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q30 http://www.wikidata.org/entity/Q183"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q60 http://www.wikidata.org/entity/Q60"
                 }
             },
             {
@@ -831,6 +1314,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q29999"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q727"
                 }
             },
             {
@@ -846,51 +1333,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q29999"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q18716069"
                 },
-                "label": {
-                    "xml:lang": "en",
+                "worklocations": {
                     "type": "literal",
-                    "value": "Soichi Sunami"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q17"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q18811896"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Pasquale De Antonis"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q18934975"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Giuseppe Alinari"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q172579"
+                    "value": "http://www.wikidata.org/entity/Q36600"
                 }
             },
             {
@@ -905,7 +1351,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490"
                 }
             },
             {
@@ -919,6 +1369,10 @@
                     "value": "Gian Sinigaglia"
                 },
                 "citizenships": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q38"
+                },
+                "worklocations": {
                     "type": "literal",
                     "value": ""
                 }
@@ -936,6 +1390,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490"
                 }
             },
             {
@@ -951,6 +1409,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q30"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q62"
                 }
             },
             {
@@ -966,6 +1428,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q38"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490"
                 }
             },
             {
@@ -980,7 +1446,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q29999 http://www.wikidata.org/entity/Q29999"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q730 http://www.wikidata.org/entity/Q41795540"
                 }
             },
             {
@@ -995,7 +1465,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q30"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q60"
                 }
             },
             {
@@ -1010,7 +1484,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q183"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q39793"
                 }
             },
             {
@@ -1025,7 +1503,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q31"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q239"
                 }
             },
             {
@@ -1040,7 +1522,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q213"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q1085"
                 }
             },
             {
@@ -1056,6 +1542,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q39"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q71"
                 }
             },
             {
@@ -1071,6 +1561,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q220 http://www.wikidata.org/entity/Q220"
                 }
             },
             {
@@ -1086,6 +1580,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490"
                 }
             },
             {
@@ -1100,7 +1598,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q279"
                 }
             },
             {
@@ -1115,7 +1617,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490"
                 }
             },
             {
@@ -1130,7 +1636,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q2634"
                 }
             },
             {
@@ -1145,7 +1655,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q2044"
                 }
             },
             {
@@ -1160,7 +1674,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q220"
                 }
             },
             {
@@ -1175,7 +1693,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490"
                 }
             },
             {
@@ -1190,7 +1712,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490"
                 }
             },
             {
@@ -1206,6 +1732,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490 http://www.wikidata.org/entity/Q490"
                 }
             },
             {
@@ -1220,7 +1750,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490"
                 }
             },
             {
@@ -1235,7 +1769,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q172579 http://www.wikidata.org/entity/Q172579"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490 http://www.wikidata.org/entity/Q641"
                 }
             },
             {
@@ -1250,7 +1788,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": ""
+                    "value": "http://www.wikidata.org/entity/Q145"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q84"
                 }
             },
             {
@@ -1266,6 +1808,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": "http://www.wikidata.org/entity/Q38"
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q490"
                 }
             },
             {
@@ -1281,6 +1827,10 @@
                 "citizenships": {
                     "type": "literal",
                     "value": ""
+                },
+                "worklocations": {
+                    "type": "literal",
+                    "value": "http://www.wikidata.org/entity/Q84"
                 }
             },
             {
@@ -1295,172 +1845,11 @@
                 },
                 "citizenships": {
                     "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q38"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q21176613"
+                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q38"
                 },
-                "label": {
-                    "xml:lang": "en",
+                "worklocations": {
                     "type": "literal",
-                    "value": "Mortimer Offner"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q30"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q21542680"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Mauro Arceci"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q172579"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q22113142"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "George William Gibbs"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q664"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q23560875"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Ursula Edelmann"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q183"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q24239722"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Pietro Poppi"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q172579"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q25939348"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Ernst Schwitters"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q20 http://www.wikidata.org/entity/Q183"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q26242203"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Otto Schmidt"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": ""
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q30127547"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Amerigo Lunghi"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q38 http://www.wikidata.org/entity/Q172579"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q43128341"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Mario Castagneri"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q172579"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q48444861"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "Marjan Smerke"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q215 http://www.wikidata.org/entity/Q83286 http://www.wikidata.org/entity/Q191077"
-                }
-            },
-            {
-                "photographer": {
-                    "type": "uri",
-                    "value": "http://www.wikidata.org/entity/Q51883685"
-                },
-                "label": {
-                    "xml:lang": "en",
-                    "type": "literal",
-                    "value": "V\u00e9ra Cardot"
-                },
-                "citizenships": {
-                    "type": "literal",
-                    "value": "http://www.wikidata.org/entity/Q142"
+                    "value": "http://www.wikidata.org/entity/Q1891 http://www.wikidata.org/entity/Q20103"
                 }
             }
         ]

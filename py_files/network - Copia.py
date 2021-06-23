@@ -13,7 +13,7 @@ def afterparty_trash(filename, data_to_write):
         json.dump(data_to_write, outfile)
 
 G = nx.MultiGraph()
-name_file = open('json_files/worklocations.json')
+name_file = open('py_files/json_files/worklocations.json')
 data = json.load(name_file)
 color_map = []
 graphdict = defaultdict()
@@ -51,10 +51,6 @@ for node, data in G.nodes(data=True):
 nx.draw(G, vmin=0, vmax=1, cmap=plt.cm.jet, node_color=color_map, with_labels=True)
 plt.show()
 
-#with open('graph.json', 'w') as outfile:
-    #json.dump(json_graph.node_link_data(G))
-#x = json_graph.node_link_data(G)
-#afterparty_trash('graph.json', x)
 
     
 #italian cities with >= 4 are: Rome, Bologna, Milan, Florence, Venice
@@ -90,16 +86,48 @@ for node, data in IC.nodes(data=True):
 nx.draw(IC, vmin=0, vmax=1, cmap=plt.cm.jet, node_color=color_map, with_labels=True)
 plt.show()
 
+#choose the city 
 
 
-FR = nx.MultiGraph()
+x = json_graph.node_link_data(IC)
+afterparty_trash('smallergraph.json', x)
 
-freqs = {"People and organizations": 10,"Artists, schools, periods": 17,"Genres and themes":11}
 
-for key, value in freqs.items():  
-    FR.add_node(key)
-    FR.add_node(value)
-    FR.add_edge(key, value)
 
-nx.draw(FR, with_labels=True)
-plt.show()
+
+#name_file_dates = open('py_files/json_files/photographer_dates.json')
+#dates = json.load(name_file_dates)
+# def dates(list):
+#    dates_list = list()
+#    for row in dates["results"]["bindings"]:
+#        if 'birth' and 'death' in row.keys():
+#            birth = row['birth']['value'][:4]
+#            photographer = row['label']['value']
+#            death = row['death']['value'][:4]
+#            dates_list.append((photographer, [int(birth), int(death)]))
+#    print(dates_list)
+
+
+
+
+
+
+
+
+
+#from datetime import datetime
+#from collections import namedtuple
+#Range = namedtuple('Range', ['start', 'end'])
+#for p1, p2 in product(dates_list, dates_list):
+#    if p1 != p2: 
+#        r1 = Range(start=datetime(p1[1][0],1,1), end=datetime(p1[1][1],1,1))
+#        r2 = Range(start=datetime(p2[1][0],1,1), end=datetime(p2[1][1],1,1))
+#        latest_start = max(r1.start, r2.start)
+#        earliest_end = min(r1.end, r2.end)
+#        delta = (earliest_end - latest_start).days + 1
+#        overlap = max(0, delta)
+        #print(overlap)
+
+
+
+
