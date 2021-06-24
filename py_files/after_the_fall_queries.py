@@ -115,5 +115,17 @@ afterparty_trash('py_files/json_files/worklocation_birth.json', results)
 #let's check the dates related to the new uris 
 
 
-
+collections= """
+select ?photographer ?label (group_concat(distinct ?institution;separator="; ") as ?institutions)
+where {VALUES ?photographer {""" + new_string_uris + """}
+    ?photographer rdfs:label ?label .
+    FILTER(LANG(?label) = "en").  
+    ?photographer wdt:P6379 ?institutions
+}
+group by ?photographer ?label
+"""
+sparql.setQuery(collections)
+sparql.setReturnFormat(JSON)
+results = sparql.query().convert()
+afterparty_trash('py_files/json_files/collections.json', results)
 
