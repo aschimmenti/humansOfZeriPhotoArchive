@@ -4,7 +4,11 @@
         <meta name="description" content="Webpage description goes here" />
         <meta charset="utf-8">
         <title>Humans of Zeri Photo Archive</title>
-        <link rel="stylesheet" href="epds.css">
+        <link rel="stylesheet" href="css/epds.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="js/index.js"></script>
+
     </head>
     
     <body>
@@ -18,7 +22,7 @@
             </div>
         </div>
 
-        <div class="collapsemenu">
+        <!-- <div class="collapsemenu">
             <div class="contentmenu">
                 <p class="menuintro">Introduction</p>
                 <p>Chapter 1</p>
@@ -32,33 +36,66 @@
                 <p>Credits</p>
 
             </div>
-        </div>
+        </div> --> 
         
         <div class="firstsection">
+            <h1>Humans of Zeri Photo Archive</h1>
+            <h2>La storia umana del più grande archivio fotografico privato al mondo</h2>
+
             <div class="bottombar">
+                <i class="material-icons">keyboard_arrow_down</i>
                 <p>Find out more</p>
             </div>
         </div>
        
         <div class="chapter1">
-            <p>Chapter 1</p>
+            <p>Zeri Photo Archive</p>
         </div>
 
-        <div class="chapter2">
-            <p>Chapter 2</p>
+        <div class="chapter">
+            <p>Fototeca Zeri: watch inside 
+                ARTchives</p>
         </div>
 
-        <div class="chapter3">
-            <p>Chapter 3</p>
+        <div class="chapter">
+            <p>Perché se è una fototeca non c’è traccia dei fotografi?</p>
         </div>
 
-        <div class="chapter4">
-            <p>Chapter 4</p>
+        <div class="chapter">
+            <p>Searching for lost photographers in Fototeca Zeri</p>
         </div>
 
-        <div class="chapter5">
-            <p>Chapter 5</p>
+        <div class="chapter">
+            <p>I fotografi della Fototeca Zeri</p>
         </div>
 
+        <div class="chapter">
+            <p>The photographers in time</p>
+        </div>
+
+        <div class="chapter">
+            <p>The geography of photographers</p>
+            <div id="chartdiv"></div>
+        </div>
+
+        <div class="chapter">
+            <p>Luoghi di attività dei principali fotografi nella fototeca zeri</p>
+            <svg id="cities_graph" width="700" height="700"></svg>  
+        </div>
+
+        <div class="chapter">
+            <p>Sotto specializzazione del quadro italiano</p>
+        </div>
+
+        <div class="chapter">
+            <p>Heuristic network of photographers’ relationships</p>
+        </div>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/geodata/continentsLow.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+        <script src="js/index.js"></script>
     </body>
 </html>

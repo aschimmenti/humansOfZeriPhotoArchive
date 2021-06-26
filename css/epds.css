@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url(roboto/Roboto-Regular.ttf);
+    font-family: 'Eymen';
+    src: url(fonts/eymen_pro/EymenPro-Light.otf);
 }
 
 body {
-    background-color: #FEF8EC;
+    background-color: #D2E4EE;
     width: 100%;
     height: 100%;
     margin:0;
@@ -27,35 +27,35 @@ body {
 }
 
 .topnav h1 {
-    font-family: 'Roboto';
-    font-size: 25px;
+    font-family: 'Eymen';
+    font-size: 17px;
     letter-spacing: 0.07rem;
     margin: 0;
-    margin-left: 40px;
+    padding: 0;
+    margin-left: 35px;
     position:relative;
-    top:-10px;
-    color: black;
+    color:#1E1E1E;
 }
 .right-nav {
     float:right;
     width:20%;
-    font-family: 'Roboto';
+    font-family: 'Eymen';
     position: relative;
     font-size: 0.7rem;
 }
 .right-nav button {
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: 'Eymen';
     letter-spacing: 0.07rem;
     margin-top: 15px;
     position: relative;
     display: block;
     top:-10px;
-    color: black;
+    color:#1E1E1E;
 }
 
 .menu {
-    font-family: 'Roboto';
+    font-family: 'Eymen';
     position:relative;
     float: left;
     display: block;
@@ -85,7 +85,7 @@ body {
 }
 
 .contentmenu p {
-    font-family: 'Roboto';
+    font-family: 'Eymen';
     text-align: center;
     margin: 0;
     padding-top: 7%;
@@ -103,21 +103,51 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: #B9D1DF;
+    background-color: #98C1D9;
+    background-image: url("images/finalZeri.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+    z-index: 0;
+    border-bottom: 0;
     margin: 0;
 }
 
+.firstsection h1 {
+    font-family: "Eymen";
+    font-size: 27px;
+    text-align: center;
+    padding-top: 90px;
+    color: #1E1E1E;
+
+}
+.firstsection h2 {
+    font-family: "Eymen";
+    font-size: 17px;
+    text-align: center;
+    color: #1E1E1E;
+    
+}
 .bottombar {
     display: block;
     position: absolute;
-    width: 20%;
-    margin-left: 40%;
+    width: 100%;
+    height: 5vh;
     bottom: 0%;
     z-index: 1;
+    backdrop-filter: saturate(50%) blur(15px);
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+.bottombar i {
+    font-size: 50px;
+    position:relative;
+    bottom: 10px;
+    color: #E3E3E3;
 }
 
 .bottombar p {
-    font-family: 'Roboto';
+    font-family: 'Eymen';
     font-size: 1.3rem;
     line-height: 4rem;
     text-align: center;
@@ -130,34 +160,32 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: aquamarine;
+    background-color: #D2E4EE;
     margin: 0;
     padding: 0;
 }
 
 .chapter1 p {
-    font-family: 'Roboto';
-    font-size: 1.3rem;
-    line-height: 4rem;
+    font-family: "Eymen";
+    font-size: 27px;
     text-align: center;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 0;
+    padding-top: 85px;
+    color: #1E1E1E;
     
 }
 
-.chapter2 {
+.chapter {
     display: block;
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: red;
+    background-color: #D2E4EE;
     margin: 0;
     padding: 0;
 }
 
-.chapter2 p {
-    font-family: 'Roboto';
+.chapter p {
+    font-family: 'Eymen';
     font-size: 1.3rem;
     line-height: 4rem;
     text-align: center;
@@ -166,55 +194,26 @@ body {
     margin-top: 0;
 }
 
-.chapter3 {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-color: yellow;
-}
+/*------------------------------GRAPH------------*/
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+  }
+  
+  .nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+  }
+  
+  text {
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+/**/
+#chartdiv {
+    max-width: 45%;
+    height: 600px;
 
-.chapter3 p {
-    font-family: 'Roboto';
-    font-size: 1.3rem;
-    line-height: 4rem;
-    text-align: center;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 0;
-}
-
-.chapter4 {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-color: yellowgreen;
-}
-
-.chapter4 p {
-    font-family: 'Roboto';
-    font-size: 1.3rem;
-    line-height: 4rem;
-    text-align: center;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 0;
-}
-.chapter5 {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-color: pink;
-}
-
-.chapter5 p {
-    font-family: 'Roboto';
-    font-size: 1.3rem;
-    line-height: 4rem;
-    text-align: center;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 0;
-}
+    background-color:#D2E4EE;
+  }
+/**/
