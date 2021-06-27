@@ -17,19 +17,23 @@
                 <h1>Humans of Zeri Photo Archive</h1>
             </div>
             <div class="right-nav">
-                <button class="openbtn menu" onclick="openNav()">menu</button>
+                <button class="openbtn" onclick="openNav()"><i class="material-icons">menu</i>
+                </button>
             </div>
         </div>
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-            <a href="#chapter1">Chapter 1</a>
-            <a href="#chapter2">Chapter 2</a>
-            <a href="#chapter3">Chapter 3</a>
-            <a href="#chapter4">Chapter 4</a>
-            <a href="#chapter5">Chapter 5</a>
-            <a href="#chapter6">Chapter 6</a>
-            <a href="#chapter7">Chapter 7</a>
-            <a href="#chapter8">Chapter 8</a>
+            <a href="#Home">Home</a>
+            <a href="#introduction">Introduction</a>
+            <a href="#archive">ARTchives</a>
+            <a href="#allineation">Lost Photographers</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#worldmap">World Map</a>
+            <a href="#network1">Cities Network</a>
+            <a href="#italianwindow">Italian window</a>
+            <a href="#network2">Heuristics</a>
+            <a href="#data">Data</a>
+            <a href="#info">Info</a>
         </div>
 
         <!-- <div class="collapsemenu">
@@ -48,7 +52,7 @@
             </div>
         </div> --> 
         
-        <div class="firstsection">
+        <div id="Home" class="firstsection">
             <h1>Humans of Zeri Photo Archive</h1>
             <h2>La storia umana del più grande archivio fotografico privato al mondo</h2>
 
@@ -58,54 +62,60 @@
             </div>
         </div>
        
-        <div id="chapter1" class="chapter1">
+        <div id="introduction" class="chapter1">
             <p>Zeri Photo Archive</p>
         </div>
 
-        <div id="chapte2" class="chapter">
+        <div id="archive" class="chapter">
             <p>Fototeca Zeri: watch inside 
                 ARTchives</p>
         </div>
 
-        <div id="chapter3" class="chapter">
+        <div id="archive2" class="chapter">
             <p>Perché se è una fototeca non c’è traccia dei fotografi?</p>
         </div>
 
-        <div id="chapter4" class="chapter">
+        <div id="allineation" class="chapter">
             <p>Searching for lost photographers in Fototeca Zeri</p>
             <div id="barchartdiv"></div>
         </div>
 
-        <div id="chapter5" class="chapter">
+        <div id="allineation2" class="chapter">
             <p>I fotografi della Fototeca Zeri</p>
             <div id="piediv"></div>
         </div>
 
-        <div id="chapter6" class="chapter">
+        <div id="timeline" class="chapter">
             <p>The photographers in time</p>
         </div>
 
-        <div id="chapter7" class="chapter">
+        <div id="worldmap" class="chapter">
             <p>The geography of photographers</p>
             <div id="mapdiv"></div>
         </div>
 
-        <div id="chapter8" class="chapter">
+        <div id="network1" class="chapter">
             <p>Luoghi di attività dei principali fotografi nella fototeca zeri</p>
-            <svg id="cities_graph" width="700" height="700"></svg>  
+            <div class="graph">
+                <svg id="cities_graph" width="700" height="700"></svg>  
+            </div>
         </div>
 
-        <div id="chapter9" class="chapter">
+        <div id="italianwindow" class="chapter">
             <p>Sotto specializzazione del quadro italiano</p>
         </div>
 
-        <div id="chapter10" class="chapter">
+        <div id="network2" class="chapter">
             <p>Heuristic network of photographers’ relationships</p>
         </div>
+        <div id="data" class="chapter">
+            <p>Data</p>
+        </div>
+        
         <script>
             function openNav() {
-              document.getElementById("mySidebar").style.width = "10%";
-              document.getElementById("main").style.marginLeft = "10%";
+              document.getElementById("mySidebar").style.width = "18%";
+              document.getElementById("main").style.marginLeft = "18%";
             }
             
             function closeNav() {

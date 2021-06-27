@@ -38,32 +38,12 @@ body {
 }
 .right-nav {
     float:right;
-    font-family: 'Eymen';
-    font-size: 0.7rem;
-    width: 10%;
-}
-
-.right-nav button {
-    font-size: 20px;
-    font-family: 'Eymen';
-    letter-spacing: 0.07rem;
-    display: block;
-}
-
-.menu {
-    font-family: 'Eymen';
-    position:relative;
-    float: left;
-    display: block;
-    text-align: center;
-    width:100%;
-    top:0;
-    margin: 0 !important;
+    width: 5%;
 }
 
 .left-nav {
     float:left;
-    width:90%;
+    width:95%;
 }
 
 /* ---- COLLAPSE MENU ------*/
@@ -111,18 +91,20 @@ body {
 
 .firstsection h1 {
     font-family: "Eymen";
-    font-size: 27px;
+    font-size: 30px;
     text-align: center;
     padding-top: 90px;
     color: #1E1E1E;
-
+    text-decoration: none;
+    font-weight: lighter;
 }
 .firstsection h2 {
     font-family: "Eymen";
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
     color: #1E1E1E;
-    
+    text-decoration: none;
+    font-weight: lighter;
 }
 .bottombar {
     display: block;
@@ -205,28 +187,38 @@ body {
     font-family: sans-serif;
     font-size: 10px;
   }
+
+.graph {
+  margin-left: 25%;
+}  
+ 
+
 /**/
 #mapdiv {
-    max-width: 45%;
+    max-width: 40%;
     height: 600px;
-
     background-color:#D2E4EE;
+    margin-left: 30%;
   }
 /**/
 #barchartdiv {
-    width: 70%;
+    width: 50%;
     height: 400px;
+    margin-left: 20%;
   }
 /**/
 #piediv {
     width: 50%;
     height: 400px;
+    margin-left: 25%;
   }
+
+
 
 /*---------------------SIDEBAR---------------*/
 .sidebar {
     height: 100%;
-    width: 10% ;
+    width: 15% ;
     position: fixed;
     z-index: 2001;
     top: 0;
@@ -235,16 +227,18 @@ body {
     background-color: rgba(255, 255, 255, 0.2);    
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 250px;
+    padding-top: 7%;
   }
   
   .sidebar a {
-    padding: 8px 8px 8px 32px;
+    padding: 15px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: black;
+    font-family: 'Eymen';
+    font-size: 20px;
+    color: #1E1E1E;
     display: block;
     transition: 0.3s;
+
   }
   
   .sidebar a:hover {
@@ -260,15 +254,22 @@ body {
   }
   
   .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    backdrop-filter: saturate(50%) blur(15px);
-    background-color: rgba(255, 255, 255, 0.2);    
+    font-size: 25px;
     color: white;
     border: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 35px;
+    position:relative;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
   }
   
-  .openbtn:hover {
+  .openbtn .material-icons:hover {
     background-color: #98C1D9;
   }
   
@@ -282,3 +283,4 @@ body {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
+
