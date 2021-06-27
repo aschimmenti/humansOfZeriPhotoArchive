@@ -6,8 +6,7 @@
         <title>Humans of Zeri Photo Archive</title>
         <link rel="stylesheet" href="css/epds.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <script src="https://d3js.org/d3.v4.min.js"></script>
-        <script src="js/index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
     </head>
     
@@ -18,8 +17,19 @@
                 <h1>Humans of Zeri Photo Archive</h1>
             </div>
             <div class="right-nav">
-                <button class="menu">menu</button>
+                <button class="openbtn menu" onclick="openNav()">menu</button>
             </div>
+        </div>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#chapter1">Chapter 1</a>
+            <a href="#chapter2">Chapter 2</a>
+            <a href="#chapter3">Chapter 3</a>
+            <a href="#chapter4">Chapter 4</a>
+            <a href="#chapter5">Chapter 5</a>
+            <a href="#chapter6">Chapter 6</a>
+            <a href="#chapter7">Chapter 7</a>
+            <a href="#chapter8">Chapter 8</a>
         </div>
 
         <!-- <div class="collapsemenu">
@@ -48,53 +58,73 @@
             </div>
         </div>
        
-        <div class="chapter1">
+        <div id="chapter1" class="chapter1">
             <p>Zeri Photo Archive</p>
         </div>
 
-        <div class="chapter">
+        <div id="chapte2" class="chapter">
             <p>Fototeca Zeri: watch inside 
                 ARTchives</p>
         </div>
 
-        <div class="chapter">
+        <div id="chapter3" class="chapter">
             <p>Perché se è una fototeca non c’è traccia dei fotografi?</p>
         </div>
 
-        <div class="chapter">
+        <div id="chapter4" class="chapter">
             <p>Searching for lost photographers in Fototeca Zeri</p>
+            <div id="barchartdiv"></div>
         </div>
 
-        <div class="chapter">
+        <div id="chapter5" class="chapter">
             <p>I fotografi della Fototeca Zeri</p>
+            <div id="piediv"></div>
         </div>
 
-        <div class="chapter">
+        <div id="chapter6" class="chapter">
             <p>The photographers in time</p>
         </div>
 
-        <div class="chapter">
+        <div id="chapter7" class="chapter">
             <p>The geography of photographers</p>
-            <div id="chartdiv"></div>
+            <div id="mapdiv"></div>
         </div>
 
-        <div class="chapter">
+        <div id="chapter8" class="chapter">
             <p>Luoghi di attività dei principali fotografi nella fototeca zeri</p>
             <svg id="cities_graph" width="700" height="700"></svg>  
         </div>
 
-        <div class="chapter">
+        <div id="chapter9" class="chapter">
             <p>Sotto specializzazione del quadro italiano</p>
         </div>
 
-        <div class="chapter">
+        <div id="chapter10" class="chapter">
             <p>Heuristic network of photographers’ relationships</p>
         </div>
+        <script>
+            function openNav() {
+              document.getElementById("mySidebar").style.width = "10%";
+              document.getElementById("main").style.marginLeft = "10%";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
+            $('body').on('click', function(){
+                if( parseInt( $('#mySidebar').css('width') ) > 0 ){
+                    closeNav();
+                }
+            });
+            </script>
         <script src="https://d3js.org/d3.v4.min.js"></script>
         <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
         <script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
         <script src="https://cdn.amcharts.com/lib/4/geodata/continentsLow.js"></script>
         <script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/themes/material.js"></script>
         <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
         <script src="js/index.js"></script>
     </body>

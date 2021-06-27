@@ -13,7 +13,7 @@ var simulation = d3.forceSimulation()
     .force("x", d3.forceX())
     .force("y", d3.forceY());
 
-d3.json("./graph.json", function(error, graph) {
+d3.json("./json/graph.json", function(error, graph) {
     if (error) throw error;
 
     var link = svg.append("g")
@@ -94,7 +94,7 @@ am4core.ready(function() {
     // Themes end
     
     // Create map instance
-    var chart = am4core.create("chartdiv", am4maps.MapChart);
+    var chart = am4core.create("mapdiv", am4maps.MapChart);
     var interfaceColors = new am4core.InterfaceColorSet();
     
     try {
@@ -272,5 +272,140 @@ am4core.ready(function() {
       "SI": 1,
       "US": 9
     }
+/*----------------------------------------------------------------------------------*/
+     // Themes begin
+     am4core.useTheme(am4themes_material);
+     am4core.useTheme(am4themes_animated);
+     // Themes end
+     
+     var chart = am4core.create("barchartdiv", am4charts.XYChart);
+     chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
+     
+     chart.data = [{
+   "name": "Anonimo",
+   "number of contributions": 13355
+ }, {
+   "name": "Brogi, Giacomo",
+   "number of contributions": 2213
+ }, {
+   "name": "ICCD",
+   "number of contributions": 1539
+ }, {
+   "name": "Alinari, Fratelli",
+   "number of contributions": 1532
+ }, {
+   "name": "Anderson, James",
+   "number of contributions": 1192
+ }, {
+   "name": "SSPSAE",
+   "number of contributions": 929
+ }, {
+   "name": "A. Villani e Figli",
+   "number of contributions": 512
+ }, {
+   "name": "A. C. Cooper",
+   "number of contributions": 397
+ }, {
+   "name": "Sotheby's",
+   "number of contributions": 284
+ }, {
+   "name": "National Gallery, London",
+   "number of contributions": 221
+ }, {
+   "name": "Perotti, Mario",
+   "number of contributions": 184
+ }];
+     
+     var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
+     categoryAxis.renderer.grid.template.location = 0;
+     categoryAxis.dataFields.category = "name";
+     categoryAxis.renderer.minGridDistance = 40;
+     categoryAxis.fontSize = 7;
+     
+     var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+     valueAxis.min = 0;
+     valueAxis.max = 14000;
+     valueAxis.strictMinMax = true;
+     valueAxis.renderer.minGridDistance = 30;
+     // axis break
+     var axisBreak = valueAxis.axisBreaks.create();
+     axisBreak.startValue = 1200;
+     axisBreak.endValue = 12800;
+     //axisBreak.breakSize = 0.005;
+     
+     // fixed axis break
+     var d = (axisBreak.endValue - axisBreak.startValue) / (valueAxis.max - valueAxis.min);
+     axisBreak.breakSize = 0.05 * (1 - d) / d; // 0.05 means that the break will take 5% of the total value axis height
+     
+     // make break expand on hover
+     var hoverState = axisBreak.states.create("hover");
+     hoverState.properties.breakSize = 1;
+     hoverState.properties.opacity = 0.1;
+     hoverState.transitionDuration = 1500;
+     
+     axisBreak.defaultState.transitionDuration = 1000;
+     /*
+     // this is exactly the same, but with events
+     axisBreak.events.on("over", function() {
+       axisBreak.animate(
+         [{ property: "breakSize", to: 1 }, { property: "opacity", to: 0.1 }],
+         1500,
+         am4core.ease.sinOut
+       );
+     });
+     axisBreak.events.on("out", function() {
+       axisBreak.animate(
+         [{ property: "breakSize", to: 0.005 }, { property: "opacity", to: 1 }],
+         1000,
+         am4core.ease.quadOut
+       );
+     });*/
+     
+     var series = chart.series.push(new am4charts.ColumnSeries());
+     series.dataFields.categoryX = "name";
+     series.dataFields.valueY = "number of contributions";
+     series.columns.template.tooltipText = "{valueY.value}";
+     series.columns.template.tooltipY = 0;
+     series.columns.template.strokeOpacity = 0;
+     
+     // as by default columns of the same series are of the same color, we add adapter which takes colors from chart.colors color set
+     series.columns.template.adapter.add("fill", function(fill, target) {
+       return chart.colors.getIndex(target.dataItem.index);
+     });
+     
+     /*--------------------------------------------------------------*/
+     /*PIECHART */
+      // Themes begin
+    am4core.useTheme(am4themes_material);
+    am4core.useTheme(am4themes_animated);
+    // Themes end
     
-    }); // end am4core.ready()
+    // Create chart instance
+    var chart = am4core.create("piediv", am4charts.PieChart);
+    
+    // Add data
+    chart.data = [ {
+    "photographer": "Anonimo",
+    "count": 13355
+}, {
+   "photographer": "People (and/or Photo Studies)",
+   "count": 8850
+}, {
+   "photographer": "Institutions",
+    "count": 9254
+    } ];
+    
+    // Add and configure Series
+    var pieSeries = chart.series.push(new am4charts.PieSeries());
+    pieSeries.dataFields.value = "count";
+    pieSeries.dataFields.category = "photographer";
+    pieSeries.slices.template.stroke = am4core.color("#fff");
+    pieSeries.slices.template.strokeWidth = 2;
+    pieSeries.slices.template.strokeOpacity = 1;
+    
+    // This creates initial animation
+    pieSeries.hiddenState.properties.opacity = 1;
+    pieSeries.hiddenState.properties.endAngle = -90;
+    pieSeries.hiddenState.properties.startAngle = -90;
+    
+}); // end am4core.ready()
