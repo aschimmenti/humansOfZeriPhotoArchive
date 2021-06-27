@@ -329,7 +329,7 @@ am4core.ready(function() {
      valueAxis.renderer.minGridDistance = 30;
      // axis break
      var axisBreak = valueAxis.axisBreaks.create();
-     axisBreak.startValue = 1200;
+     axisBreak.startValue = 2500;
      axisBreak.endValue = 12800;
      //axisBreak.breakSize = 0.005;
      
