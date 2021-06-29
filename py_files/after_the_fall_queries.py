@@ -84,7 +84,7 @@ sparql.setQuery(if_entity)
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
 
-
+print(results)
 #now add to the uris the list of new uris, first make a list of them, then 'suit them' with the brackets
 uris.extend(suit_for_SPARQL_dinner(invitation_list(results, "otherpeople")))
 #create a second list out of the other output, and have a list of the people to remove from the now unpacked list

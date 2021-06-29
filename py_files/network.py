@@ -13,7 +13,7 @@ def afterparty_trash(filename, data_to_write):
         json.dump(data_to_write, outfile)
 
 G = nx.MultiGraph()
-name_file = open('json_files/worklocations.json')
+name_file = open('py_files/json_files/worklocations.json')
 data = json.load(name_file)
 color_map = []
 graphdict = defaultdict()

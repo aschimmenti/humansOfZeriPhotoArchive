@@ -7,7 +7,7 @@ import json
 from networkx.readwrite.json_graph.node_link import node_link_data
 from networkx.readwrite import json_graph;
 
-df = pd.read_csv('json_files/workbirths.csv', sep=',')
+df = pd.read_csv('py_files/json_files/workbirths.csv', sep=',')
 df['birth'] = pd.to_datetime(df['birth'])
 df['year'] = df['birth'].dt.year
 lbls = df['worklabels'].values
