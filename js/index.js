@@ -3,7 +3,7 @@ var svg = d3.select("#cities_graph"),
         width = +svg.attr("width"),
         height = +svg.attr("height");
 
-svg.attr("viewBox", [-width / 2, -height / 2, width, height]);
+svg.attr("viewBox", [-width / 2.1, -height / 2.1, width, height]);
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 

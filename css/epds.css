@@ -139,7 +139,7 @@ body {
     height: 100vh;
     background-color: #D2E4EE;
     margin: 0;
-    padding: 0;
+    padding-top: 2%;
 }
 
 .chapter h2 {
@@ -152,6 +152,16 @@ body {
   margin-top: 0;
   font-weight: lighter;
 
+}
+.chapter h3 {
+  font-family: 'Eymen';
+  font-size: 1.2rem;
+  line-height: 4rem;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 0;
+  font-weight: lighter;
 }
 
 /*.chapter p {
@@ -182,17 +192,14 @@ body {
     font-size: 10px;
   }
 
-.graph {
-  margin-left: 25%;
-}  
- 
 
 /**/
 #mapdiv {
     max-width: 40%;
     height: 600px;
     background-color:#D2E4EE;
-    margin-left: 30%;
+    margin-left: 33%;
+    margin-right: 30%;
   }
 /**/
 #barchartdiv {
@@ -281,26 +288,22 @@ body {
 
 
 /*-------------------INTRODUCTION---------------*/
+#introduction {
+  text-align: center;
+}
 
 #introduction img {
-  max-width: 40%;
-  padding: 2% 5%;
-  border-radius: 12%;
-  margin-bottom: 10px;
-  float: left;
+  max-height: 35%;
+  border-radius: 3rem;
 }
 
 #introduction button {
   max-width: 25%;
   border-radius: 30%;
-  position: absolute;
-  margin-left: -32%;
-  margin-top: 31%;
   z-index: 10;
   display: inline-block;
   border: 0.3rem solid transparent;
   border-radius: 3rem;
-  padding: 0.2rem 1rem;
   background-color: #707070;
   color: #f0f6f9;
   font-weight: lighter;
@@ -319,15 +322,12 @@ body {
 }
 
 #introduction p {
-  display: block;
-  float: top right;
-  margin-left: 45%;
-  padding-right: 5%;
-  font-family: 'Eymen';
-  font-size: 1.2rem;
-  text-align: right;
-  margin-top: 4%;
   line-height: 2rem;
+  font-family: 'Eymen';
+  font-size: 1rem;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 1%;
 }
 
 
@@ -344,7 +344,7 @@ body {
 #archive p {
   line-height: 2rem;
   font-family: 'Eymen';
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-right: 5%;
   padding-left: 5%;
 
@@ -366,6 +366,18 @@ body {
   margin-left: 15%;
 }
 
+.increasingNumber {
+  animation: counter 5s infinite alternate ease-in-out;
+}
+
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 100;
+  }
+}
 /*-------------------------------*/
 #archive2 {
   text-align: center;
@@ -374,15 +386,25 @@ body {
 #archive2 p {
   line-height: 2rem;
   font-family: 'Eymen';
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-right: 5%;
   padding-left: 5%;
 }
+
+#archive2 a {
+  text-decoration: none;
+  color: #1E1E1E;
+}
+
+#archive2 a:hover {
+  text-decoration: underline;
+}
+
 /*---------------allineation and piechart----------*/
 #allineation p {
   line-height: 2rem;
   font-family: 'Eymen';
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-right: 5%;
   padding-left: 5%;
   text-align: center;
@@ -392,7 +414,7 @@ body {
 #wikidata p {
   line-height: 2rem;
   font-family: 'Eymen';
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-right: 5%;
   padding-left: 5%;
   text-align: center;
@@ -402,18 +424,58 @@ body {
 #worldmap p {
   line-height: 2rem;
   font-family: 'Eymen';
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-right: 5%;
   padding-left: 5%;
   text-align: center;
 }
 
+#worldmap .chapter {
+  padding: 2%;
+  padding-bottom: 5%;
+}
+
 /*-----------------------------*/
+#network1 {
+  text-align: center;
+}
+
 #network1 p {
   line-height: 2rem;
   font-family: 'Eymen';
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-right: 5%;
   padding-left: 5%;
-  text-align: center;
+  display: inline-block;
+}
+
+#network1 button {
+  padding-top: 520px;
+  padding-bottom: 520px;
+  max-width: 25%;
+  border-radius: 30%;
+  z-index: 2;
+  display: inline-block;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+  padding: 0.2rem 1rem;
+  background-color: #707070;
+  color: #f0f6f9;
+  font-weight: lighter;
+}
+
+#network1 button:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0);
+}
+
+#network1 button a {
+  color: #f0f6f9;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 18px;
+  font-family: 'Eymen';
+}
+/*-----------------------------*/
+#italianwindow {
+  margin-top: 60px;
 }
