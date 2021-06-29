@@ -366,18 +366,6 @@ body {
   margin-left: 15%;
 }
 
-.increasingNumber {
-  animation: counter 5s infinite alternate ease-in-out;
-}
-
-@keyframes counter {
-  from {
-    --num: 0;
-  }
-  to {
-    --num: 100;
-  }
-}
 /*-------------------------------*/
 #archive2 {
   text-align: center;

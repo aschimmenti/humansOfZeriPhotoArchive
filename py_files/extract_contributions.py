@@ -16,7 +16,7 @@ def reverse_string(string):
     else: 
         return string
 
-jsondata = json.load(open('json_files/final_photographer_Q5.json'))
+jsondata = json.load(open('py_files/final_photographer_Q5.json'))
 contributions = {}
 with open('photographers.csv') as csv_file:
     data = csv.DictReader(csv_file, delimiter=',')
