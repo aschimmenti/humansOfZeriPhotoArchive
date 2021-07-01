@@ -65,12 +65,18 @@ for c in italian_cities:
 
 IC = nx.MultiGraph()
 
+
+
+
 for key in graphdict:  
     for key2 in higher_n_cities:
         if key == key2: 
             higher_n_cities[key2] = graphdict[key].copy()
 
-print(higher_n_cities)
+
+for key, item in higher_n_cities.items(): 
+    print(key) 
+    print(len(higher_n_cities[key]))
 
 for key in higher_n_cities: 
     IC.add_node(key, vote="city")
@@ -88,18 +94,4 @@ for node, data in IC.nodes(data=True):
 
 
 nx.draw(IC, vmin=0, vmax=1, cmap=plt.cm.jet, node_color=color_map, with_labels=True)
-plt.show()
-
-
-
-FR = nx.MultiGraph()
-
-freqs = {"People and organizations": 10,"Artists, schools, periods": 17,"Genres and themes":11}
-
-for key, value in freqs.items():  
-    FR.add_node(key)
-    FR.add_node(value)
-    FR.add_edge(key, value)
-
-nx.draw(FR, with_labels=True)
 plt.show()

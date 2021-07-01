@@ -11,7 +11,6 @@
     </head>
     
     <body>
-        
         <div class="topnav">
             <div class="left-nav">
                 <h1>Humans of Zeri Photo Archive</h1>
@@ -53,10 +52,10 @@
         
         <div id="Home" class="firstsection">
             <h1>Humans of Zeri Photo Archive</h1>
-            <h2>La storia umana del più grande archivio fotografico privato al mondo</h2>
+            <h2>The human history of the world's largest private archive on Italian painting.</h2>
 
             <div class="bottombar">
-                <i class="material-icons">keyboard_arrow_down</i>
+                <button class="transparent1" onclick="scrollWin(0, 96)"><i class="material-icons" >keyboard_arrow_down</i></button>
                 <p>Find out more</p>
             </div>
         </div>
@@ -65,9 +64,9 @@
             <h2>Introduction</h2>
             <img src="css/images/library.jpg">
             <p>Have you ever wondered what the history of a photographic archive is? </p>
-            <p>Most probably it is the story of the <b>humans</b> who contributed to its creation and whose works have been catalogued. <br> It will be the story of the men who travelled, studied and met each other to create those works. <br>
+            <p>Most probably it is the story of the <b>humans</b> who contributed to its creation and whose works have been catalogued. It will be the story of the men who travelled, studied and met each other to create those works. <br>
             And, in the end, it will undoubtedly be the story of the human being who made it all possible: <b>Federico Zeri</b>. <br> Fototeca Zeri is the product of his studies in art history and at the same time the result of a broader vision, an invaluable resource for art history and photography scholars.</p>
-            <button>
+            <button class="graybutton">
                 <a href="https://fondazionezeri.unibo.it/en" target="_blank">Zeri Photo Archive</a>
             </button>
         </div>
@@ -81,21 +80,37 @@
                 And it is within ARTchives that our journey of discovery 
                 into the human history of the Fototeca Zeri begins. <br> Let's look at the data about the Fototeca Zeri inside ARTchives.</p>
             <div class="percentageR">
-                <p class="increasingNumber">10</p>
-                <p>People and Organizations</p>
+                <span class="increasingNumber" id="count1"></span>
+                <p>Art Historians and Organizations</p>
             </div>
             <div class="percentageC">
-                <p class="increasingNumber">17</p>
+                <span class="increasingNumber" id="count2"></span>
                 <p>Artists, schools, periods</p>
             </div>
             <div class="percentageL">
-                <p class="increasingNumber">11</p>
+                <span class="increasingNumber" id="count3"></span>
             <p>Genres and themes</p>
             </div>
-
+            <script>document.addEventListener("DOMContentLoaded", () => {
+                function counter(id, start, end, duration) {
+                 let obj = document.getElementById(id),
+                  current = start,
+                  range = end - start,
+                  increment = end > start ? 1 : -1,
+                  step = Math.abs(Math.floor(duration / range)),
+                  timer = setInterval(() => {
+                   current += increment;
+                   obj.textContent = current;
+                   if (current == end) {
+                    clearInterval(timer);
+                   }
+                  }, step);
+                }
+                counter("count1", 0, 10, 3000);
+                counter("count2", 0, 17, 2500);
+                counter("count3", 0, 11, 3000);
+               });</script>
             <p>And what about the photographers?</p>
-
-            <i class="material-icons">keyboard_arrow_down</i>
         </div>
         <!---------------------------------------------------->
         <div id="archive2" class="chapter">
@@ -105,14 +120,15 @@
             <div id="barchartdiv"></div>
             <p>In this barchart we can see the ten first most relevant contributors in terms of quantity.
             The first thing to notice is that the largest contributions come from anonymous sources. As if something must remain hidden in our investigation.
-            However, other entities and personalities have come to light. <br> What kind of contribution are we talking about? 
+            However, other entities and personalities have come to light. <br> What kind of contributions are we talking about? 
             </p>
         </div>
         <div id="allineation" class="chapter">
-            <h3>More than an Anonymous...</h3>
-            <p>Our investigation meets a crossroads. We can glimpse two major groups of contributors to the Zeri Photo Archive. <br> On the one hand, photographers and photo studios; on the other, large institutions among the most renowned in the world. </p>   
+            <h3>More than Anonymous...</h3>
+            <p>Our investigation meets a crossroads. We can glimpse two major groups of contributors to the Zeri Photo Archive. 
+                <br> On the one hand, photographers and photo studios; on the other, large institutions among the most renowned in the world. </p>   
             <div id="piediv"></div>    
-            <p>Driven by the desire to put a real face on these photographers, we leave institutions aside and focus on humans.</p>     
+            <p>Driven by the desire to put a real face on these photographers, we leave institutions aside and focus on humans.</p>
         </div>
 
         <div id="wikidata" class="chapter">
@@ -124,25 +140,29 @@
 
         <div id="worldmap" class="chapter">
             <h2>The geography of photographers</h2>
-            <p>Behind the faces of these photographers there is a world to explore. The journey can continue, from the places where they were born to the cities where they lived, worked and took their photographs.</p>
+            <p>Behind the faces of these photographers there is a world to explore. 
+            The journey can continue, from the places where they were born to the cities where they lived, 
+            worked and took their photographs. In particular,
+            our photographers come from Italy, Germany, France, Denmark, United Kindom, Switzerland, 
+            Netherlands, Norway, Belgium, Austria, Czeck Republic, Hungary, Slovenia, Sweden, United States and New Zeland.</p>
             <div id="mapdiv" style="width: 500px; height: 500px"></div>
         </div>
         
         <div id="network1" class="chapter">
-            <p>Tracing their steps from their home states to the cities that hosted their work, the relationships between these photographers came to the surface. <br> Many have shared the same cities, the same places and their eyes have also seen the same landscapes. </p>
+            <h3>Cities: places of meetings and inspiration</h3>
+            <p>Tracing their steps from their home states to the cities that hosted their work, the relationships between these photographers came to the surface. 
+                <br> Many have shared the same cities, the same places and their eyes have also seen the same landscapes. </p>
             <div class="graph">
                 <svg id="cities_graph" width="600" height="600"></svg>  
             </div>
-            <button>
-                <a href="#" target="_blank">View net in new page</a>
-            </button>
-            <p>We can see that the photographers whose photos ended in the Photo Zeri Archive mainly worked in Milan, Florence and Rome, with 
-                a cluster comprehending the three of them. 
-            </p>
         </div>
 
         <div id="italianwindow" class="chapter">
-            <h2>Sotto specializzazione del quadro italiano</h2>
+            <h2>The capitals of photography: the Italian panorama</h2>
+            <img class="italyimg" src="css/images/Milano.png">
+            <p>Looking at the Italian context in particular, we can observe how during the 20th century some cities became highly centralised in terms of the activity of photographers and photographic studios.</p>
+            <p>In the first place was Milan, the centre of activity for many photographic studios, including Gian Battista Colombo, Gigi Bassani and Dino Zani. </br> Rome was another important capital of photography, where Fiorentini, Moscioni and the Anderson studio were active; the latter also had some activity in Venice, along with Naya and Salviati.
+            </p><p>Florence and Bologna, despite the smaller number of recognised photographers in these cities, were home to the activities of major studios such as those of the Alinari brothers</p>
         </div>
 
         <div id="network2" class="chapter">
@@ -151,8 +171,13 @@
         <div id="data" class="chapter">
             <h2>Data</h2>
         </div>
-        
+
+
         <script>
+            $(document).ready(function(){
+                    $(this).scrollTop(0);
+                });
+    
             /*function openNav() {
               document.getElementById("main").style.marginLeft = "18%";
               document.getElementById("mySidebar").style.display = block;
@@ -170,7 +195,9 @@
             function closeNav() {
                 document.getElementById("mySidebar").style.display = "none";
                 }
-
+            function scrollWin(x, valueInVh) {
+                window.scrollBy(x, valueInVh * window.innerHeight/100);
+                }
             </script>
         <script src="https://d3js.org/d3.v4.min.js"></script>
         <script src="https://cdn.amcharts.com/lib/4/core.js"></script>

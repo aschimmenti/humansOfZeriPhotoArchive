@@ -3,6 +3,13 @@
     src: url(fonts/eymen_pro/EymenPro-Light.otf);
 }
 
+html {
+  margin: 0;  
+  scroll-behavior: smooth;
+}
+
+
+
 body {
     background-color: #D2E4EE;
     width: 100%;
@@ -12,6 +19,7 @@ body {
 
 /* ----------- NAVBAR -------- */ 
 
+
 .topnav {
     position: fixed;
     width: 100%;
@@ -19,7 +27,7 @@ body {
     display: block;
     top:0;
     z-index: 2000;
-    top:0px;
+    top: 0;
     padding-top: 25px;
     border-bottom: 0.5 solid #00283D;
     backdrop-filter: saturate(50%) blur(15px);
@@ -87,7 +95,9 @@ body {
     z-index: 0;
     border-bottom: 0;
     margin: 0;
+    padding: 0;
 }
+
 
 .firstsection h1 {
     font-family: "Eymen";
@@ -97,6 +107,7 @@ body {
     color: #1E1E1E;
     text-decoration: none;
     font-weight: lighter;
+    margin-top: 0;
 }
 .firstsection h2 {
     font-family: "Eymen";
@@ -131,6 +142,15 @@ body {
     text-align: center;
 }
 
+.transparent, .transparent1 {
+  background:transparent;
+  border:none;
+  cursor: pointer;
+}
+
+.transparent i {
+  font-size: 3.5em;
+}
 /* -------------- CHAPTERS ---------- */ 
 .chapter {
     display: block;
@@ -297,7 +317,7 @@ body {
   border-radius: 3rem;
 }
 
-#introduction button {
+#introduction .graybutton {
   max-width: 25%;
   border-radius: 30%;
   z-index: 10;
@@ -307,13 +327,14 @@ body {
   background-color: #707070;
   color: #f0f6f9;
   font-weight: lighter;
-
 }
+
+
 #introduction button:hover {
   transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0);
 }
 
-#introduction button a {
+#introduction .graybutton a {
   color: #f0f6f9;
   text-decoration: none;
   font-weight: lighter;
@@ -322,7 +343,7 @@ body {
 }
 
 #introduction p {
-  line-height: 2rem;
+  line-height: 1.5rem;
   font-family: 'Eymen';
   font-size: 1rem;
   padding-right: 5%;
@@ -330,6 +351,10 @@ body {
   padding-top: 1%;
 }
 
+#introduction .blank {
+  margin: 0;
+  padding: 0;
+}
 
 /*--------------ARTCHIVE----------*/
 #archive {
@@ -367,16 +392,8 @@ body {
 }
 
 .increasingNumber {
-  animation: counter 5s infinite alternate ease-in-out;
-}
-
-@keyframes counter {
-  from {
-    --num: 0;
-  }
-  to {
-    --num: 100;
-  }
+    font-family: 'Eymen';
+    font-size: 1rem;
 }
 /*-------------------------------*/
 #archive2 {
@@ -401,6 +418,10 @@ body {
 }
 
 /*---------------allineation and piechart----------*/
+#allineation {
+  text-align: center;
+}
+
 #allineation p {
   line-height: 2rem;
   font-family: 'Eymen';
@@ -411,6 +432,10 @@ body {
 }
 
 /*-----------------------------*/
+#wikidata {
+  text-align: center;
+}
+
 #wikidata p {
   line-height: 2rem;
   font-family: 'Eymen';
@@ -421,12 +446,18 @@ body {
 }
 
 /*-----------------------------*/
+
+#worldmap {
+  text-align: center;
+
+}
+
 #worldmap p {
   line-height: 2rem;
   font-family: 'Eymen';
   font-size: 1rem;
-  padding-right: 5%;
-  padding-left: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
   text-align: center;
 }
 
@@ -449,7 +480,7 @@ body {
   display: inline-block;
 }
 
-#network1 button {
+/*#network1 button {
   padding-top: 520px;
   padding-bottom: 520px;
   max-width: 25%;
@@ -462,7 +493,7 @@ body {
   background-color: #707070;
   color: #f0f6f9;
   font-weight: lighter;
-}
+}*/
 
 #network1 button:hover {
   transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0);
@@ -478,4 +509,24 @@ body {
 /*-----------------------------*/
 #italianwindow {
   margin-top: 60px;
+  text-align: right;
+}
+
+#italianwindow p {
+  line-height: 2rem;
+  font-family: 'Eymen';
+  font-size: 1rem;
+  padding-right: 10%;
+  padding-left: 5%;
+  display: block;
+  float: right;
+  width: 45%;
+}
+
+#italianwindow .italyimg {
+  float: left;
+  display: block;
+  width: 25%;
+  padding-right: 5%;
+  padding-left: 10%;
 }
