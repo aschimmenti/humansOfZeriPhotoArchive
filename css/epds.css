@@ -20,7 +20,7 @@ body {
 /* ----------- NAVBAR -------- */ 
 
 
-.Giuliatopnav {
+.topnav {
     position: fixed;
     width: 100%;
     height: 40px;
@@ -34,7 +34,7 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.Giuliatopnav h1 {
+.topnav h1 {
     font-family: 'Eymen';
     font-size: 17px;
     letter-spacing: 0.07rem;
@@ -44,19 +44,19 @@ body {
     position:relative;
     color:#1E1E1E;
 }
-.Giuliaright-nav {
+.right-nav {
     float:right;
     width: 5%;
 }
 
-.Giulialeft-nav {
+.left-nav {
     float:left;
     width:95%;
 }
 
 /* ---- COLLAPSE MENU ------*/
 
-.Giuliacollapsemenu {
+.collapsemenu {
     width: 20%;
     height: 100vh;
     position: fixed;
@@ -68,7 +68,7 @@ body {
     
 }
 
-.Giuliacontentmenu p {
+.contentmenu p {
     font-family: 'Eymen';
     text-align: center;
     margin: 0;
@@ -117,7 +117,7 @@ body {
     text-decoration: none;
     font-weight: lighter;
 }
-.Giuliabottombar {
+.bottombar {
     display: block;
     position: absolute;
     width: 100%;
@@ -128,14 +128,14 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
 }
-.Giuliabottombar i {
+.bottombar i {
     font-size: 50px;
     position:relative;
     bottom: 10px;
     color: #E3E3E3;
 }
 
-.Giuliabottombar p {
+.bottombar p {
     font-family: 'Eymen';
     font-size: 1.3rem;
     line-height: 4rem;
@@ -237,7 +237,7 @@ body {
 
 
 /*---------------------SIDEBAR---------------*/
-.Giuliasidebar {
+.sidebar {
     height: 100%;
     width: 18%;
     position: fixed;
@@ -252,7 +252,7 @@ body {
     display: none;
   }
   
-  .Giuliasidebar a {
+  .sidebar a {
     padding: 15px 8px 8px 32px;
     text-decoration: none;
     font-family: 'Eymen';
@@ -263,11 +263,11 @@ body {
 
   }
   
-  .Giuliasidebar a:hover {
+  .sidebar a:hover {
     color: #98C1D9;
   }
   
-  .Giuliasidebar .Giuliaclosebtn {
+  .sidebar .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -275,7 +275,7 @@ body {
     margin-left: 50px;
   }
   
-  .Giuliaopenbtn {
+  .openbtn {
     font-size: 25px;
     color: white;
     border: none;
@@ -291,7 +291,7 @@ body {
     outline:none;
   }
   
-  .Giuliaopenbtn .material-icons:hover {
+  .openbtn .material-icons:hover {
     background-color: #98C1D9;
   }
   
