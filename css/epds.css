@@ -20,7 +20,7 @@ body {
 /* ----------- NAVBAR -------- */ 
 
 
-.topnav {
+.Giuliatopnav {
     position: fixed;
     width: 100%;
     height: 40px;
@@ -34,7 +34,7 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.topnav h1 {
+.Giuliatopnav h1 {
     font-family: 'Eymen';
     font-size: 17px;
     letter-spacing: 0.07rem;
@@ -44,19 +44,19 @@ body {
     position:relative;
     color:#1E1E1E;
 }
-.right-nav {
+.Giuliaright-nav {
     float:right;
     width: 5%;
 }
 
-.left-nav {
+.Giulialeft-nav {
     float:left;
     width:95%;
 }
 
 /* ---- COLLAPSE MENU ------*/
 
-.collapsemenu {
+.Giuliacollapsemenu {
     width: 20%;
     height: 100vh;
     position: fixed;
@@ -68,7 +68,7 @@ body {
     
 }
 
-.contentmenu p {
+.Giuliacontentmenu p {
     font-family: 'Eymen';
     text-align: center;
     margin: 0;
@@ -117,7 +117,7 @@ body {
     text-decoration: none;
     font-weight: lighter;
 }
-.bottombar {
+.Giuliabottombar {
     display: block;
     position: absolute;
     width: 100%;
@@ -128,14 +128,14 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
 }
-.bottombar i {
+.Giuliabottombar i {
     font-size: 50px;
     position:relative;
     bottom: 10px;
     color: #E3E3E3;
 }
 
-.bottombar p {
+.Giuliabottombar p {
     font-family: 'Eymen';
     font-size: 1.3rem;
     line-height: 4rem;
@@ -237,7 +237,7 @@ body {
 
 
 /*---------------------SIDEBAR---------------*/
-.sidebar {
+.Giuliasidebar {
     height: 100%;
     width: 18%;
     position: fixed;
@@ -252,7 +252,7 @@ body {
     display: none;
   }
   
-  .sidebar a {
+  .Giuliasidebar a {
     padding: 15px 8px 8px 32px;
     text-decoration: none;
     font-family: 'Eymen';
@@ -263,11 +263,11 @@ body {
 
   }
   
-  .sidebar a:hover {
+  .Giuliasidebar a:hover {
     color: #98C1D9;
   }
   
-  .sidebar .closebtn {
+  .Giuliasidebar .Giuliaclosebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -275,7 +275,7 @@ body {
     margin-left: 50px;
   }
   
-  .openbtn {
+  .Giuliaopenbtn {
     font-size: 25px;
     color: white;
     border: none;
@@ -291,7 +291,7 @@ body {
     outline:none;
   }
   
-  .openbtn .material-icons:hover {
+  .Giuliaopenbtn .material-icons:hover {
     background-color: #98C1D9;
   }
   
@@ -378,17 +378,20 @@ body {
 .percentageR {
   display: inline-table;
   float: right;
-  margin-right: 15%;
+  margin-right: 20%;
+  width: 20%;
 }
 
 .percentageC {
   display: inline-table;
+  width: 20%;
 }
 
 .percentageL {
   display: inline-table;
   float: left;
-  margin-left: 15%;
+  margin-left: 20%;
+  width: 20%;
 }
 
 .increasingNumber {

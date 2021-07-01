@@ -47,5 +47,4 @@ for s_year in starting_years:
         if(len(people)>1):
             S = net.subgraph(people).copy()
             nx.draw(S, with_labels=True)
-            plt.title(str(s_year) + '-' + str(s_year+window_sz))
             plt.show()

@@ -11,17 +11,17 @@
     </head>
     
     <body>
-        <div class="topnav">
-            <div class="left-nav">
+        <div class="Giuliatopnav">
+            <div class="Giulialeft-nav">
                 <h1>Humans of Zeri Photo Archive</h1>
             </div>
-            <div class="right-nav">
-                <button class="openbtn" onclick="openNav()"><i class="material-icons">menu</i>
+            <div class="Giuliaright-nav">
+                <button class="Giuliaopenbtn" onclick="openNav()"><i class="material-icons">menu</i>
                 </button>
             </div>
         </div>
-        <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div id="mySidebar" class="Giuliasidebar">
+            <a href="javascript:void(0)" class="Giuliaclosebtn" onclick="closeNav()">×</a>
             <a href="#Home">Home</a>
             <a href="#introduction">Introduction</a>
             <a href="#archive">ARTchives</a>
@@ -54,7 +54,7 @@
             <h1>Humans of Zeri Photo Archive</h1>
             <h2>The human history of the world's largest private archive on Italian painting.</h2>
 
-            <div class="bottombar">
+            <div class="Giuliabottombar">
                 <button class="transparent1" onclick="scrollWin(0, 96)"><i class="material-icons" >keyboard_arrow_down</i></button>
                 <p>Find out more</p>
             </div>
@@ -80,15 +80,15 @@
                 And it is within ARTchives that our journey of discovery 
                 into the human history of the Fototeca Zeri begins. <br> Let's look at the data about the Fototeca Zeri inside ARTchives.</p>
             <div class="percentageR">
-                <span class="increasingNumber" id="count1"></span>
+                <b><span class="increasingNumber" id="count1"></span></b>
                 <p>Art Historians and Organizations</p>
             </div>
             <div class="percentageC">
-                <span class="increasingNumber" id="count2"></span>
+                <b><span class="increasingNumber" id="count2"></span></b>
                 <p>Artists, schools, periods</p>
             </div>
             <div class="percentageL">
-                <span class="increasingNumber" id="count3"></span>
+                <b><span class="increasingNumber" id="count3"></span></b>
             <p>Genres and themes</p>
             </div>
             <script>document.addEventListener("DOMContentLoaded", () => {
@@ -106,11 +106,11 @@
                    }
                   }, step);
                 }
-                counter("count1", 0, 10, 3000);
-                counter("count2", 0, 17, 2500);
-                counter("count3", 0, 11, 3000);
+                counter("count1", 0, 10, 8000);
+                counter("count2", 0, 17, 8000);
+                counter("count3", 0, 11, 8000);
                });</script>
-            <p>And what about the photographers?</p>
+            <p><b>And what about the photographers?</b></p>
         </div>
         <!---------------------------------------------------->
         <div id="archive2" class="chapter">
@@ -136,6 +136,7 @@
             <p>Unraveling the photographic library of human history for us is to see the faces that 
                 were hidden behind the lens of the camera. <br> The people below 
             are some of the ones we were able to find back in Wikidata.</p>
+            
         </div>
 
         <div id="worldmap" class="chapter">
@@ -167,6 +168,7 @@
 
         <div id="network2" class="chapter">
             <h2>Heuristic network of photographers’ relationships</h2>
+
         </div>
         <div id="data" class="chapter">
             <h2>Data</h2>
