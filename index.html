@@ -135,7 +135,58 @@
             <p>Unraveling the photographic library of human history for us is to see the faces that 
                 were hidden behind the lens of the camera. <br> The people below 
             are some of the ones we were able to find back in Wikidata.</p>
-           
+            <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 6</div>
+                <img src="css/images/1.png" style="width:80%">
+                <div class="captiontext">Caption Text</div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 6</div>
+                <img src="css/images/2.png" style="width:80%">
+                <div class="captiontext">Caption Two</div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 6</div>
+                <img src="css/images/3.png" style="width:80%">
+                <div class="captiontext">Caption Three</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <img src="css/images/4.png" style="width:80%">
+                <div class="captiontext">Caption Three</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 6</div>
+                <img src="css/images/5.png" style="width:80%">
+                <div class="captiontext">Caption Three</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                <img src="css/images/6.png" style="width:80%">
+                <div class="captiontext">Caption Three</div>
+              </div>
+              
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              
+              </div>
+              <br>
+              
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span> 
+                <span class="dot" onclick="currentSlide(6)"></span> 
+              </div>
         </div>
 
         <div id="worldmap" class="chapter">
@@ -166,8 +217,62 @@
         </div>
 
         <div id="network2" class="chapter">
-            <h2>Heuristic network of photographers’ relationships</h2>
+          <h2>Beyond the lens</h2>
+          <p>Unraveling the photographic library of human history for us is to see the faces that 
+              were hidden behind the lens of the camera. <br> The people below 
+          are some of the ones we were able to find back in Wikidata.</p>
+          <div class="slideshow-container">
+            <div class="myNets fade">
+              <div class="numbertext">1 / 6</div>
+              <img src="css/images/1.png" style="width:80%">
+              <div class="captiontext">Caption Text</div>
+            </div>
+            
+            <div class="myNets fade">
+              <div class="numbertext">2 / 6</div>
+              <img src="css/images/2.png" style="width:80%">
+              <div class="captiontext">Caption Two</div>
+            </div>
+            
+            <div class="myNets fade">
+              <div class="numbertext">3 / 6</div>
+              <img src="css/images/3.png" style="width:80%">
+              <div class="captiontext">Caption Three</div>
+            </div>
 
+            <div class="myNets fade">
+              <div class="numbertext">4 / 6</div>
+              <img src="css/images/4.png" style="width:80%">
+              <div class="captiontext">Caption Three</div>
+            </div>
+
+            <div class="myNets fade">
+              <div class="numbertext">5 / 6</div>
+              <img src="css/images/5.png" style="width:80%">
+              <div class="captiontext">Caption Three</div>
+            </div>
+
+            <div class="myNets fade">
+              <div class="numbertext">6 / 6</div>
+              <img src="css/images/6.png" style="width:80%">
+              <div class="captiontext">Caption Three</div>
+            </div>
+            
+            <a class="prev" onclick="plusNet(-1)">&#10094;</a>
+            <a class="next" onclick="plusNet(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="point" onclick="currentNet(1)"></span> 
+              <span class="point" onclick="currentNet(2)"></span> 
+              <span class="point" onclick="currentNet(3)"></span> 
+              <span class="point" onclick="currentNet(4)"></span> 
+              <span class="point" onclick="currentNet(5)"></span> 
+              <span class="point" onclick="currentNet(6)"></span> 
+            </div>
+      </div>
         </div>
         <div id="data" class="chapter">
             <h2>Data</h2>
@@ -200,6 +305,62 @@
                 window.scrollBy(x, valueInVh * window.innerHeight/100);
                 }
             </script>
+            <script>
+            var slideIndex = 1;
+              showSlides(slideIndex);
+
+              function plusSlides(n) {
+                showSlides(slideIndex += n);
+              }
+
+              function currentSlide(n) {
+                showSlides(slideIndex = n);
+              }
+
+              function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+              }
+              </script>
+              <script>
+          var netIndex = 1;
+              showNets(netIndex);
+
+            function plusNet(n) {
+              showNets(netIndex += n);
+            }
+
+            function currentNet(n) {
+              showNets(netIndex = n);
+            }
+
+            function showNets(n) {
+              var i;
+              var nets = document.getElementsByClassName("myNets");
+              var points = document.getElementsByClassName("dot");
+              if (n > nets.length) {netIndex = 1}    
+              if (n < 1) {netIndex = nets.length}
+              for (i = 0; i < nets.length; i++) {
+                nets[i].style.display = "none";  
+              }
+              for (i = 0; i < points.length; i++) {
+                  points[i].className = points[i].className.replace(" active", "");
+              }
+              nets[netIndex-1].style.display = "block";  
+              points[netIndex-1].className += " active";
+            }
+      </script>
         <script src="https://d3js.org/d3.v4.min.js"></script>
         <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
         <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
