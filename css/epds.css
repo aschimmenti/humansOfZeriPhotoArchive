@@ -11,7 +11,7 @@ html {
 
 
 body {
-    background-color: #D2E4EE;
+    background-color: white;
     width: 100%;
     height: 100%;
     margin:0;
@@ -79,6 +79,10 @@ body {
 .menuintro {
     margin-top: 10%;
 }
+.material-icons {
+  color:#1E1E1E
+
+}
 
 /* --------- FIND OUT MORE -------- */
 
@@ -107,7 +111,7 @@ body {
     color: #1E1E1E;
     text-decoration: none;
     font-weight: lighter;
-    margin-top: 0;
+    margin: 0;
 }
 .firstsection h2 {
     font-family: "Eymen";
@@ -116,6 +120,7 @@ body {
     color: #1E1E1E;
     text-decoration: none;
     font-weight: lighter;
+    margin: 0;
 }
 .bottombar {
     display: block;
@@ -158,13 +163,15 @@ body {
     width: 100%;
     height: 100vh;
     background-color: #D2E4EE;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
     margin: 0;
-    padding-top: 2%;
+    text-align: center;
 }
 
 .chapter h2 {
   font-family: 'Eymen';
-  font-size: 1.3rem;
+  font-size: 30px;
   line-height: 4rem;
   text-align: center;
   margin-left: 40px;
@@ -175,7 +182,7 @@ body {
 }
 .chapter h3 {
   font-family: 'Eymen';
-  font-size: 1.2rem;
+  font-size: 25px;
   line-height: 4rem;
   text-align: center;
   margin-left: 40px;
@@ -215,13 +222,13 @@ body {
 
 /**/
 #mapdiv {
-    max-width: 40%;
+    width: 100% !important;
     height: 600px;
     background-color:#D2E4EE;
-    margin-left: 33%;
-    margin-right: 30%;
+
   }
 /**/
+
 #barchartdiv {
     width: 75%;
     height: 300px;
@@ -292,7 +299,7 @@ body {
   }
   
   .openbtn .material-icons:hover {
-    background-color: #98C1D9;
+    color: #98C1D9;
   }
   
   #main {
@@ -310,11 +317,14 @@ body {
 /*-------------------INTRODUCTION---------------*/
 #introduction {
   text-align: center;
+  background-color: white;
 }
 
 #introduction img {
   max-height: 35%;
-  border-radius: 3rem;
+  border-radius: 0.5rem;
+  display: block;
+  margin:0 auto;
 }
 
 #introduction .graybutton {
@@ -327,6 +337,8 @@ body {
   background-color: #707070;
   color: #f0f6f9;
   font-weight: lighter;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 
@@ -343,12 +355,13 @@ body {
 }
 
 #introduction p {
-  line-height: 1.5rem;
+  line-height: 2rem;
   font-family: 'Eymen';
   font-size: 1rem;
   padding-right: 5%;
   padding-left: 5%;
   padding-top: 1%;
+  text-align: center;
 }
 
 #introduction .blank {
@@ -356,14 +369,45 @@ body {
   padding: 0;
 }
 
+/*----------- LINE ----------*/
+.line-div {
+  width:100%;
+  height:20vh;
+  display:inline-block;
+}
+.line-div-big {
+  width:100%;
+  height:70vh;
+  display:inline-block;
+  margin-top:0px;
+}
+
+.line-div1 {
+  width:48%;
+  height:100%;
+  margin:2px;
+  float:left;
+}
+.line-div2 {
+  border-left: 1px solid #707070;
+  width:51%;
+  height:100%;
+  margin:2px;
+  float:right;
+}
+
 /*--------------ARTCHIVE----------*/
 #archive {
   text-align: center;
+  background-color: white;
 }
 
 #archive img {
   max-height: 25%;
-  border-radius: 3rem;
+  border-radius: 0.5rem;
+  display: block;
+  margin:0 auto;
+
 }
 
 #archive p {
@@ -373,6 +417,9 @@ body {
   padding-right: 5%;
   padding-left: 5%;
 
+}
+#archive p.aboutph {
+  font-size: 1.5rem;
 }
 
 .percentageR {
@@ -396,11 +443,12 @@ body {
 
 .increasingNumber {
     font-family: 'Eymen';
-    font-size: 1rem;
+    font-size: 2rem;
 }
 /*-------------------------------*/
 #archive2 {
   text-align: center;
+  background-color: #D2E4EE;
 }
 
 #archive2 p {
@@ -419,10 +467,13 @@ body {
 #archive2 a:hover {
   text-decoration: underline;
 }
-
+#archive2 p.aboutph {
+  font-size: 1.5rem;
+}
 /*---------------allineation and piechart----------*/
 #allineation {
   text-align: center;
+  background-color: #D2E4EE;
 }
 
 #allineation p {
@@ -437,6 +488,7 @@ body {
 /*-----------------------------*/
 #wikidata {
   text-align: center;
+  background-color: white;
 }
 
 #wikidata p {
@@ -452,6 +504,7 @@ body {
 
 #worldmap {
   text-align: center;
+  background-color: #D2E4EE;
 
 }
 
@@ -472,6 +525,7 @@ body {
 /*-----------------------------*/
 #network1 {
   text-align: center;
+  background-color: #D2E4EE;
 }
 
 #network1 p {
@@ -513,6 +567,7 @@ body {
 #italianwindow {
   margin-top: 60px;
   text-align: right;
+  background-color: white;
 }
 
 #italianwindow p {
@@ -548,12 +603,11 @@ body {
   text-align: center;
 }
 
-
 /*------------------------------------------slideshow-----------------------------------------*/
 .mySlides {display: none}
 img {vertical-align: middle;
 
-  border-radius: 3rem;
+  border-radius: 0.5rem;
 }
 
 /* Slideshow container */
@@ -571,7 +625,7 @@ img {vertical-align: middle;
   position: absolute;
   top: 50%;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 4px;
   user-select: none;
 }
 
@@ -588,29 +642,33 @@ img {vertical-align: middle;
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: #707070;
+  backdrop-filter: saturate(50%) blur(15px);
+
+
 }
 
 /* Caption text */
 .captiontext {
   color: #f2f2f2;
-  font-size: 20px;
+  font-size: 17px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
   font-family: 'Eymen';
-  text-shadow: 3px 3px 3px #121418;
+  text-shadow: 2px 2px 2px #121418;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #707070;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  font-family: "Eymen";
 }
 
 /* The dots/bullets/indicators */
@@ -649,6 +707,53 @@ img {vertical-align: middle;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+/*---------------*/
+#conclusion {
+  text-align: center;
+  background-color: white;
+}
+
+#conclusion p {
+  line-height: 2rem;
+  font-family: 'Eymen';
+  font-size: 1rem;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: center;
+}
+
+#data {
+  text-align: center;
+}
+
+#data p {
+  line-height: 2rem;
+  font-family: 'Eymen';
+  font-size: 1rem;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: center;
+}
+
+#about {
+  text-align: center;
+  background-color: #98C1D9;
+}
+
+#about p {
+  line-height: 2rem;
+  font-family: 'Eymen';
+  font-size: 1rem;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  background-color: #98C1D9;
 }
 
 @-webkit-keyframes fade {
