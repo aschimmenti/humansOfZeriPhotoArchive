@@ -1,0 +1,982 @@
+@base <http://www.wikidata.org/entity/>.
+@prefix wdt: <http://www.wikidata.org/prop/direct/>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+
+<Q5813202>
+	rdfs:label 'Henry Vincent Kneuer' ; #name
+    wdt:P569 '1953-09-28T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q8810 ; #place of birth
+	wdt:P27 wd:Q30 ; #citizenship
+	wdt:P106 wd:Q486748, wd:Q33231 ; #occupation
+	wdt:P937 wd:Q339759 . #worklocation
+
+
+<Q2425872>
+	rdfs:label 'Bernard F. Eilers' ; #name
+	wdt:P569 '1878-04-24T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q727 ; #place of birth
+	wdt:P570 '1951-04-26T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q727 ; #place of death
+	wdt:P27 wd:Q29999 ; #citizenship
+	wdt:P106 wd:Q1028181, wd:Q33231, wd:Q10862983, wd:Q15296811, wd:Q16947657, wd:Q20857490 ; #occupation
+	wdt:P937 wd:Q727 . #worklocation
+
+
+<Q107100391>
+	rdfs:label 'Murray Kendall Keyes' ; #name
+	wdt:P569 '1870-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q54182 ; #place of birth
+	wdt:P27 wd:Q30 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q60 . #worklocation
+
+
+<Q3441292>
+	rdfs:label 'Romualdo Moscioni' ; #name
+	wdt:P569 '1849-03-17T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q13395 ; #place of birth
+	wdt:P570 '1925-07-07T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q220 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q220 . #worklocation
+
+
+<Q23560875>
+	rdfs:label 'Ursula Edelmann' ; #name
+	wdt:P569 '1926-03-30T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q64 ; #place of birth
+	wdt:P27 wd:Q183 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q64, wd:Q1794 . #worklocation
+
+
+<Q106653081>
+	rdfs:label 'Eraldo Alivernini' ; #name
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q220 . #worklocation
+
+
+<Q18716069>
+	rdfs:label 'Soichi Sunami' ; #name
+	wdt:P569 '1885-02-18T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q132936 ; #place of birth
+	wdt:P570 '1971-11-12T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q17 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q60, wd:Q5083 . #worklocation
+
+
+<Q5660348>
+	rdfs:label 'Harold Corsini' ; #name
+	wdt:P569 '1919-08-28T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q60 ; #place of birth
+	wdt:P570 '2008-01-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q30 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q60, wd:Q1342 . #worklocation
+
+
+<Q21543783>
+	rdfs:label 'Boudewijn Payens' ; #name
+	wdt:P569 '1951-06-07T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q47887 ; #place of birth
+	wdt:P27 wd:Q29999 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q15296811 ; #occupation
+	wdt:P937 wd:Q727, wd:Q47887 . #worklocation
+
+
+<Q30127547>
+	rdfs:label 'Amerigo Lunghi' ; #name
+	wdt:P569 '1884-11-28T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q20103 ; #place of birth
+	wdt:P27 wd:Q38, wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q7541856 ; #occupation
+	wdt:P937 wd:Q414, wd:Q3437 . #worklocation
+
+<Q102281349>
+	rdfs:label 'Mario Crimella' ; #name
+	wdt:P569 '1893-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q20103 ; #place of birth
+	wdt:P570 '1964-01-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q490 . #worklocation
+
+<Q102075978>
+	rdfs:label 'Luigi Dubray' ; #name
+	wdt:P569 '1842-07-05T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1449 ; #place of birth
+	wdt:P570 '1900-11-25T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q490 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q490 . #worklocation
+
+<Q6187840>
+	rdfs:label 'Jessie Tarbox Beals' ; #name
+	wdt:P569 '1870-12-23T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q133116 ; #place of birth
+	wdt:P570 '1942-05-30T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q60 ; #place of death
+	wdt:P27 wd:Q30 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q60, wd:Q771 . #worklocation
+
+<Q103135077>
+	rdfs:label 'Gigi Bassani' ; #name
+	wdt:P569 '1894-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q490 ; #place of birth
+	wdt:P570 '1930-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q490 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q15296811 ; #occupation
+	wdt:P937 wd:Q490 . #worklocation
+
+<Q30308695>
+	rdfs:label 'Gustavus W. Pach' ; #name
+	wdt:P569 '1845-06-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q183 ; #place of birth
+	wdt:P570 '1904-10-09T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q60 ; #place of death
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q60 . #worklocation
+
+<Q61992274>
+	rdfs:label 'Carlo Marcozzi' ; #name
+	wdt:P569 '1827-02-11T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q6285 ; #place of birth
+	wdt:P570 '1883-02-18T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q490 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q490 . #worklocation
+
+<Q48444861>
+	rdfs:label 'Marjan Smerke' ; #name
+	wdt:P569 '1932-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q437 ; #place of birth
+	wdt:P570 '2017-06-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q215, wd:Q83286, wd:Q191077 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q437 . #worklocation
+
+<Q59743982>
+	rdfs:label 'Hans Schiff' ; #name
+	wdt:P569 '1907-11-07T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q365 ; #place of birth
+	wdt:P570 '1976-09-17T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q60 ; #place of death
+	wdt:P27 wd:Q30, wd:Q183 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q215536 ; #occupation
+	wdt:P937 wd:Q60 . #worklocation
+
+<Q86137496>
+	rdfs:label 'Johann Mutter' ; #name
+	wdt:P569 '1902-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q59315035 ; #place of birth
+	wdt:P570 '1974-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q494299 ; #place of death
+	wdt:P27 wd:Q183 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q1028181 ; #occupation
+	wdt:P937 wd:Q39793 . #worklocation
+
+<Q21176613>
+	rdfs:label 'Mortimer Offner' ; #name
+	wdt:P569 '1900-11-03T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1384 ; #place of birth
+	wdt:P570 '1965-09-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q30 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q28389, wd:Q11499147 ; #occupation
+	wdt:P937 wd:Q60, wd:Q34006 . #worklocation
+
+<Q100138863>
+	rdfs:label 'Oscar Savio' ; #name
+	wdt:P569 '1912-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q617 ; #place of birth
+	wdt:P570 '2005-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q220 ; #place of death
+	wdt:P27 wd:Q38, wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q220 . #worklocation
+
+<Q62572993>
+	rdfs:label 'Gabriel Moulin' ; #name
+	wdt:P569 '1872-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q16553 ; #place of birth
+	wdt:P570 '1945-01-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q30 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q33231 ; #occupation
+	wdt:P937 wd:Q62 . #worklocation
+
+<Q106650664>
+	rdfs:label 'Sydney W. Newbery' ; #name
+	wdt:P569 '1894-01-01T00:00:00Z' ; #date of birth
+	wdt:P570 '1985-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q84 ; #place of death
+	wdt:P27 wd:Q145 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q84 . #worklocation
+	
+<Q1349404>
+	rdfs:label 'John Anderson' ; #name
+	wdt:P569 '1833-10-04T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q23436 ; #place of birth
+	wdt:P570 '1900-08-15T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q971223 ; #place of death
+	wdt:P27 wd:Q174193 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q18805, wd:Q350979, wd:Q674426, wd:Q1225716, wd:Q1622272, wd:Q10872101, wd:Q11900058 . #occupation
+
+<Q12025975>
+	rdfs:label 'Josef Ehm' ; #name
+	wdt:P569 '1909-08-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1018003 ; #place of birth
+	wdt:P570 '1989-11-08T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q1085 ; #place of death
+	wdt:P27 wd:Q33946 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q37226 ; #occupation
+	wdt:P937 wd:Q1085 . #worklocation
+
+<Q18169099>
+	rdfs:label 'Paolo Monti' ; #name
+	wdt:P569 '1908-08-11T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q6046 ; #place of birth
+	wdt:P570 '1982-11-29T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q490 ; #place of death
+	wdt:P27 wd:Q38, wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q490, wd:Q641 . #worklocation
+
+<Q1676501>
+	rdfs:label 'Martin Gerlach' ; #name
+	wdt:P569 '1879-04-02T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1741 ; #place of birth
+	wdt:P570 '1944-07-18T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q1741 ; #place of death
+	wdt:P27 wd:Q40 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q2516866, wd:Q2516866 ; #occupation
+	wdt:P937 wd:Q1741 . #worklocation
+
+<Q378129>
+	rdfs:label 'F\u00e9licien Rops' ; #name
+	wdt:P569 '1833-07-07T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q134121 ; #place of birth
+	wdt:P570 '1898-08-23T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q18281400 ; #place of death
+	wdt:P27 wd:Q31 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q644687, wd:Q715301, wd:Q1028181, wd:Q1925963, wd:Q3658608, wd:Q15296811 ; #occupation
+	wdt:P937 wd:Q90 . #worklocation
+
+
+<Q3081037>
+	rdfs:label 'Francesco Negri' ; #name
+	wdt:P569 '1841-12-18T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q40036 ; #place of birth
+	wdt:P570 '1924-12-21T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q16333 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q16333 . #worklocation
+
+<Q3109003>
+	rdfs:label 'Peter Elfelt' ; #name
+	wdt:P569 '1866-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1748 ; #place of birth
+	wdt:P570 '1931-02-18T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q1748 ; #place of death
+	wdt:P27 wd:Q35 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q1748 . #worklocation
+
+<Q346323>
+	rdfs:label 'Emery Walker' ; #name
+	wdt:P569 '1851-04-02T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q124230 ; #place of birth
+	wdt:P570 '1933-07-22T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q145 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q43845, wd:Q354034, wd:Q11569986 ; #occupation
+	wdt:P937 wd:Q84 . #worklocation
+
+<Q3831697>
+	rdfs:label 'Libero Tosi' ; #name
+	wdt:P569 '1902-07-24T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q111205 ; #place of birth
+	wdt:P570 '1988-08-23T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q2683 ; #place of death
+	wdt:P27 wd:Q38, wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q1028181 ; #occupation
+	wdt:P937 wd:Q2683, wd:Q23700 . #worklocation
+
+<Q647812>
+	rdfs:label 'Franz Hanfstaengl' ; #name
+	wdt:P569 '1804-03-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q506523 ; #place of birth
+	wdt:P570 '1877-04-18T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q1726 ; #place of death
+	wdt:P27 wd:Q154195 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q1726, wd:Q1731 . #worklocation
+
+<Q67294703>
+	rdfs:label 'Mario Perotti' ; #name
+	wdt:P569 '1909-10-10T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q490 ; #place of birth
+	wdt:P570 '1999-03-11T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q490 ; #place of death
+	wdt:P27 wd:Q38 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q490 . #worklocation
+
+<Q60236397>
+	rdfs:label 'P. Steensma' ; #name
+	wdt:P569 '1879-07-18T00:00:00Z' ; #date of birth
+	wdt:P570 '1931-03-05T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q727 ; #place of death
+	wdt:P27 wd:Q29999 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q727 . #worklocation
+
+<Q105986035>
+	rdfs:label 'Giovanni Battista Brusa' ; #name
+	wdt:P569 '1830-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q490 ; #place of birth
+	wdt:P570 '1920-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q490 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q490, wd:Q641 . #worklocation
+
+<Q102282749>
+	rdfs:label 'Achille Ferrario' ; #name
+	wdt:P569 '1848-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q490 ; #place of birth
+	wdt:P570 '1914-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q490 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q490 . #worklocation
+
+<Q25939348>
+	rdfs:label 'Ernst Schwitters' ; #name
+	wdt:P569 '1918-11-16T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1715 ; #place of birth
+	wdt:P570 '1996-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q585 ; #place of death
+	wdt:P27 wd:Q20, wd:Q183 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q585, wd:Q1715 . #worklocation
+
+<Q61476278>
+	rdfs:label 'Gian Battista Colombo' ; #name
+	wdt:P569 '1921-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q641 ; #place of birth
+	wdt:P570 '2005-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q490 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q490 . #worklocation
+
+<Q155158>
+	rdfs:label 'Kurt Schwitters' ; #name
+	wdt:P569 '1887-06-20T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1715 ; #place of birth
+	wdt:P570 '1948-01-08T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q994575 ; #place of death
+	wdt:P27 wd:Q183 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q36180, wd:Q49757, wd:Q483501, wd:Q627325, wd:Q1028181, wd:Q1281618, wd:Q5322166 ; #occupation
+	wdt:P937 wd:Q211778, wd:Q1503983, wd:Q3429899 . #worklocation
+
+<Q18934975>
+	rdfs:label 'Giuseppe Alinari' ; #name
+	wdt:P569 '1836-04-29T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q2044 ; #place of birth
+	wdt:P570 '1890-04-24T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q2044 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q220, wd:Q490, wd:Q2044, wd:Q2634 . #worklocation
+
+<Q21542680>
+	rdfs:label 'Mauro Arceci' ; #name
+	wdt:P569 '1888-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q190584 ; #place of birth
+	wdt:P570 '1972-01-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q2759 . #worklocation
+
+<Q102281430>
+	rdfs:label 'Pietro Salvini' ; #name
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q2044 . #worklocation
+
+<Q16867239>
+	rdfs:label 'Jules Sylvestre' ; #name
+	wdt:P569 '1859-10-12T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q456 ; #place of birth
+	wdt:P570 '1936-01-21T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q456 ; #place of death
+	wdt:P27 wd:Q142 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q456 . #worklocation
+
+<Q2412846>
+	rdfs:label 'Paolo Lombardi' ; #name
+	wdt:P569 '1827-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q2751 ; #place of birth
+	wdt:P570 '1890-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q2751 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q2751 . #worklocation
+
+<Q22113142>
+	rdfs:label 'George William Gibbs' ; #name
+	wdt:P569 '1937-01-01T00:00:00Z' ; #date of birth
+	wdt:P27 wd:Q664 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q3055126, wd:Q3243461 . #occupation
+
+<Q102280710>
+	rdfs:label 'R. Petrelli' ; #name
+	wdt:P106 wd:Q33231 ; #occupation
+
+<Q24239722>
+	rdfs:label 'Pietro Poppi' ; #name
+	wdt:P569 '1833-04-29T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q95094 ; #place of birth
+	wdt:P570 '1914-04-21T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q1891 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q1028181 ; #occupation
+	wdt:P937 wd:Q1891 . #worklocation
+
+<Q64212>
+	rdfs:label 'Giorgio Sommer' ; #name
+	wdt:P569 '1834-09-02T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1794 ; #place of birth
+	wdt:P570 '1914-08-07T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q2634 ; #place of death
+	wdt:P27 wd:Q183, wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q2634 . #worklocation
+
+<Q75379946>
+	rdfs:label A.J. Dingjan' ; #name
+	wdt:P569 '1927-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q41795540 ; #place of birth
+	wdt:P570 '1985-01-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q29999 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q730, wd:Q41795540 . #worklocation
+
+<Q59575316>
+	rdfs:label 'Walter Steinkopf' ; #name
+	wdt:P27 wd:Q183 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q64, wd:Q668294 . #worklocation
+
+<Q43128341>
+	rdfs:label 'Mario Castagneri' ; #name
+	wdt:P569 '1892-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q6088 ; #place of birth
+	wdt:P570 '1940-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q490 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q483501, wd:Q1028181 ; #occupation
+	wdt:P937 wd:Q490 . #worklocation
+
+<Q3724533>
+	rdfs:label 'Emilio Sommariva' ; #name
+	wdt:P569 '1883-12-08T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q6244 ; #place of birth
+	wdt:P570 '1956-09-12T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q490 ; #place of death
+	wdt:P27 wd:Q38, wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q1028181 ; #occupation
+	wdt:P937 wd:Q490 . #worklocation
+
+<Q215618>
+	rdfs:label 'Grete Stern' ; #name
+	wdt:P569 '1904-05-09T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q702259 ; #place of birth
+	wdt:P570 '1999-12-24T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q1486 ; #place of death
+	wdt:P27 wd:Q183, wd:Q414 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q1028181 ; #occupation
+	wdt:P937 wd:Q183, wd:Q414 . #worklocation
+
+<Q18811896>
+	rdfs:label 'Pasquale De Antonis' ; #name
+	wdt:P569 '1908-04-04T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q13137 ; #place of birth
+	wdt:P570 '2001-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q220 ; #place of death
+	wdt:P27 wd:Q38, #wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q220, wd:Q1891 . #worklocation
+
+<Q58242413>
+	rdfs:label 'Paolo Salviati' ; #name
+	wdt:P569 '1818-05-23T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q641 ; #place of birth
+	wdt:P570 '1894-01-20T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q641 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q641 . #worklocation
+
+<Q3157912>
+	rdfs:label 'Jacques Ernest Bulloz' ; #name
+	wdt:P569 '1858-04-20T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q90 ; #place of birth
+	wdt:P570 '1942-03-05T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q90 ; #place of death
+	wdt:P27 wd:Q142 ; #citizenship
+	wdt:P106 wd:Q33231, wd:wd:Q82955 ; #occupation
+	wdt:P937 wd:Q90 . #worklocation
+
+
+<Q110373>
+	rdfs:label 'Wilhelm Castelli' ; #name
+	wdt:P569 '1901-12-17T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q2843 ; #place of birth
+	wdt:P570 '1984-05-29T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q2843 ; #place of death
+	wdt:P27 wd:Q183 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q2843 . #worklocation
+
+<Q86736457>
+	rdfs:label 'Roland Devolder' ; #name
+	wdt:P27 wd:Q31 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q239 . #worklocation
+
+<Q84594380>
+	rdfs:label 'Charles Uht' ; #name
+	wdt:P27 wd:Q30 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q60 . #worklocation
+
+<Q3840227>
+	rdfs:label 'Luigi Vaghi' ; #name
+	wdt:P569 '1882-09-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q2683 ; #place of birth
+	wdt:P570 '1967-01-02T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q2683 ; #place of death
+	wdt:P27 wd:Q38, wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q220, wd:Q495, wd:Q2683, wd:Q3642 . #worklocation
+
+
+<Q17350272>
+	rdfs:label 'Paul Robert' ; #name
+	wdt:P569 '1866-05-03T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q166997 ; #place of birth
+	wdt:P570 '1898-04-13T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q90 ; #place of death
+	wdt:P27 wd:Q142 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q90 . #worklocation
+
+
+
+<Q106652385>
+	rdfs:label 'Mario Sansoni' ; #name
+	wdt:P569 '1882-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1891 ; #place of birth
+	wdt:P570 '1970-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q1891 ; #place of death
+	wdt:P27 wd:Q38 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q1891, wd:Q20103 . #worklocation
+
+
+
+<Q107097566>
+	rdfs:label 'Ferdinando Barsotti' ; #name
+	wdt:P569 '1872-01-01T00:00:00Z' ; #date of birth
+	wdt:P570 '1939-01-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q2044 . #worklocation
+
+
+
+<Q95133787>
+	rdfs:label 'Ladislav Neubert' ; #name
+	wdt:P569 '1927-06-08T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1085 ; #place of birth
+	wdt:P27 wd:Q213 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q1085 . #worklocation
+
+
+
+<Q60241073>
+	rdfs:label 'Adam Frequin' ; #name
+	wdt:P569 '1883-03-11T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1310 ; #place of birth
+	wdt:P570 '1939-07-27T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q36600 ; #place of death
+	wdt:P27 wd:Q29999 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q36600 . #worklocation
+
+
+
+<Q16164590>
+	rdfs:label 'Leopoldo Alinari' ; #name
+	wdt:P569 '1832-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q2044 ; #place of birth
+	wdt:P570 '1865-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q2044 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q2516866 ; #occupation
+	wdt:P937 wd:Q220, wd:Q2044, wd:Q2634 . #worklocation
+
+
+
+<Q107336575>
+	rdfs:label 'Andrea Taramelli' ; #name
+	wdt:P569 '1836-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q628 ; #place of birth
+	wdt:P570 '1887-01-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q172579, wd:Q209857 ; #citizenship
+	wdt:P106 wd:Q33231 . #occupation
+
+
+
+
+<Q106650408>
+	rdfs:label 'Dino Zani' ; #name
+	wdt:P569 '1891-12-18T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q2044 ; #place of birth
+	wdt:P570 '1939-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q490 ; #place of death
+	wdt:P27 wd:Q38 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q490 . #worklocation
+
+
+
+<Q30308759>
+	rdfs:label 'Gotthelf Pach' ; #name
+	wdt:P569 '1852-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q64 ; #place of birth
+	wdt:P570 '1925-04-17T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q60 ; #place of death
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q60, wd:Q536154, wd:Q995231 . #worklocation
+
+
+
+<Q107097659>
+	rdfs:label 'Gino Barsotti' ; #name
+	wdt:P569 '1900-12-17T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q2044 ; #place of birth
+	wdt:P570 '1985-01-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q38 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q2044 . #worklocation
+
+
+
+<Q102281354>
+	rdfs:label 'Ferdinando Lembo' ; #name
+	wdt:P569 '1879-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q173292 ; #place of birth
+	wdt:P570 '1958-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q2634 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q2634 . #worklocation
+
+
+
+<Q102282957>
+	rdfs:label 'Gianni Mari' ; #name
+	wdt:P569 '1926-01-01T00:00:00Z' ; #date of birth
+	wdt:P570 '1971-01-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q38, wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q490 . #worklocation
+
+
+
+<Q86818261>
+	rdfs:label 'Mayer' ; #name
+	wdt:P569 '1926-02-01T00:00:00Z' ; #date of birth
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q25396 . #worklocation
+
+
+
+<Q65938951>
+	rdfs:label 'David H. Anderson' ; #name
+	wdt:P569 '1827-01-01T00:00:00Z' ; #date of birth
+	wdt:P570 '1905-01-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q30 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q60, wd:Q43421 . #worklocation
+
+
+
+<Q3131559>
+	rdfs:label 'Henri Manuel' ; #name
+	wdt:P569 '1874-04-24T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q223140 ; #place of birth
+	wdt:P570 '1947-09-11T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q48958 ; #place of death
+	wdt:P27 wd:Q142 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q90 . #worklocation
+
+
+
+<Q106417607>
+	rdfs:label 'William Edward Gray' ; #name
+	wdt:P569 '1864-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q84 ; #place of birth
+	wdt:P570 '1935-09-04T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q84 ; #place of death
+	wdt:P27 wd:Q145 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q84 . #worklocation
+
+
+
+<Q30308623>
+	rdfs:label 'Morris Pach' ; #name
+	wdt:P569 '1837-04-03T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q64 ; #place of birth
+	wdt:P570 '1914-03-29T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q1010539 ; #place of death
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q60 . #worklocation
+
+
+
+<Q16622457>
+	rdfs:label 'Vittorio Ecclesia' ; #name
+	wdt:P569 '1847-02-11T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q10298 ; #place of birth
+	wdt:P570 '1928-02-03T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q6122 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q495, wd:Q1222 . #worklocation
+
+
+
+<Q18508633>
+	rdfs:label 'Romualdo Alinari' ; #name
+	wdt:P569 '1830-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q2044 ; #place of birth
+	wdt:P570 '1891-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q2044 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q220, wd:Q490, wd:Q2044, wd:Q2634 . #worklocation
+
+
+
+<Q55679892>
+	rdfs:label 'Julius Scherb' ; #name
+	wdt:P569 '1881-01-17T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q41329 ; #place of birth
+	wdt:P570 '1965-01-16T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q1741 ; #place of death
+	wdt:P27 wd:Q40 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q1741 . #worklocation
+
+<Q946185>
+	rdfs:label 'Tomaso Filippi' ; #name
+	wdt:P569 '1852-03-26T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q641 ; #place of birth
+	wdt:P570 '1948-01-21T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q641 ; #place of death
+	wdt:P27 wd:Q38 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q641 . #worklocation
+
+<Q3723011>
+	rdfs:label 'Elio Ciol' ; #name
+	wdt:P569 '1929-03-03T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q53157 ; #place of birth
+	wdt:P27 wd:Q38 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q490, wd:Q641, wd:Q1250, wd:Q20103, wd:Q23792 . #worklocation
+
+<Q97940625>
+	rdfs:label 'Gad Borel' ; #name
+	wdt:P569 '1942-02-14T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q71 ; #place of birth
+	wdt:P27 wd:Q39 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q71 . #worklocation
+
+
+<Q102282921>
+	rdfs:label 'Claudio Emmer' ; #name
+	wdt:P19 wd:Q490 ; #place of birth
+	wdt:P20 wd:Q490 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q490 . #worklocation
+
+<Q43128341>
+	rdfs:label 'Mario Castagneri' ; #name
+	wdt:P569 '1892-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q6088 ; #place of birth
+	wdt:P570 '1940-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q490 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q490 . #worklocation
+
+<Q102281190>
+	rdfs:label 'Ferruccio Sorgato' ; #name
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q279 . #worklocation
+
+<Q18509122>
+	rdfs:label 'Ivo Bazzechi' ; #name
+	wdt:P569 '1920-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q13378 ; #place of birth
+	wdt:P570 '1975-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q2044 ; #place of death
+	wdt:P27 wd:Q38, wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q . #worklocation
+
+<Q102281528>
+	rdfs:label 'Ettore Reale' ; #name
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q220 . #worklocation
+
+<Q17132342>
+	rdfs:label 'Joseph Janney Steinmetz' ; #name
+	wdt:P569 '1905-01-01T00:00:00Z' ; #date of birth
+	wdt:P570 '1985-01-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q30 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q812, wd:Q1345 . #worklocation
+
+<Q789672>
+	rdfs:label 'Rudolf Balogh' ; #name
+	wdt:P569 '1879-09-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1781 ; #place of birth
+	wdt:P570 '1944-10-09T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q1781 ; #place of death
+	wdt:P27 wd:Q28 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q1781 . #worklocation
+
+<Q26242203>
+	rdfs:label 'Otto Schmidt' ; #name
+	wdt:P569 '1849-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q6986 ; #place of birth
+	wdt:P570 '1920-01-01T00:00:00Z' ; #date of death
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q1741 . #worklocation
+
+<Q102280849>
+	rdfs:label 'Achille Villani' ; #name
+	wdt:P569 '1880-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1891 ; #place of birth
+	wdt:P570 '1945-01-01T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q38, wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q1891 . #worklocation
+
+<Q106936993>
+	rdfs:label 'Pietro Fiorentini' ; #name
+	wdt:P569 '1873-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q617 ; #place of birth
+	wdt:P570 '1945-09-09T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q641 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q279, wd:Q617, wd:Q641, wd:Q1891 . #worklocation
+
+<Q51883685>
+	rdfs:label 'V\u00e9ra Cardot' ; #name
+	wdt:P569 '1920-07-24T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1781 ; #place of birth
+	wdt:P570 '2003-08-31T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q208851 ; #place of death
+	wdt:P27 wd:Q142 ; #citizenship
+	wdt:P106 wd:Q33231, wd:Q957729, wd:Q1930187, wd:Q3391743 ; #occupation
+	wdt:P937 wd:Q1781 . #worklocation
+
+<Q61482172>
+	rdfs:label 'Gian Sinigaglia' ; #name
+	wdt:P569 '1901-01-01T00:00:00Z' ; #date of birth
+	wdt:P27 wd:Q38 ; #citizenship
+	wdt:P106 wd:Q33231 . #occupation
+
+
+<Q107030756>
+	rdfs:label 'Vittorio Villani' ; #name
+	wdt:P569 '1905-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1891 ; #place of birth
+	wdt:P570 '1975-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q1891 ; #place of death
+	wdt:P27 wd:Q38, wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q1891 . #worklocation
+
+<Q3750053>
+	rdfs:label 'Francesco Giordani' ; #name
+	wdt:P569 '1908-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q220 ; #place of birth
+	wdt:P570 '1991-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q220 ; #place of death
+	wdt:P27 wd:Q38, wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q220, wd:Q237 . #worklocation
+
+<Q18508704>
+	rdfs:label 'Viktor Angerer' ; #name
+	wdt:P569 '1839-10-03T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q837464 ; #place of birth
+	wdt:P570 '1894-04-10T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q1741 ; #place of death
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q1741 . #worklocation
+
+<Q52156353>
+	rdfs:label 'Attilio Brisighelli' ; #name
+	wdt:P569 '1880-01-01T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q2790 ; #place of birth
+	wdt:P570 '1966-01-01T00:00:00Z' ; #date of death
+	wdt:P20 wd:Q2790 ; #place of death
+	wdt:P27 wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q2790 . #worklocation
+
+<Q16632909>
+	rdfs:label 'Anders Engman' ; #name
+	wdt:P569 '1933-09-21T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q1754 ; #place of birth
+	wdt:P27 wd:Q34 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q1754 . #worklocation
+
+<Q17426655>
+	rdfs:label 'Guglielmo Chiolini' ; #name
+	wdt:P569 '1900-07-10T00:00:00Z' ; #date of birth
+	wdt:P19 wd:Q6259 ; #place of birth
+	wdt:P570 '1991-07-07T00:00:00Z' ; #date of death
+	wdt:P27 wd:Q38, wd:Q172579 ; #citizenship
+	wdt:P106 wd:Q33231 ; #occupation
+	wdt:P937 wd:Q6259, wd:Q12724 . #worklocation
+

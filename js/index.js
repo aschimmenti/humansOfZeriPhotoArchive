@@ -265,6 +265,7 @@ am4core.ready(function() {
       "GB": 3,
       "HU": 1,
       "IT": 48,
+      "NO": 1,
       "JP": 1,
       "NL": 4,
       "NZ": 1,

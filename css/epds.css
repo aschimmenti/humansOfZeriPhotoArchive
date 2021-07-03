@@ -177,6 +177,7 @@ body {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 0;
+  padding: 0;
   font-weight: lighter;
 
 }
@@ -185,9 +186,10 @@ body {
   font-size: 25px;
   line-height: 4rem;
   text-align: center;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 30%;
+  margin-right: 30%;
   margin-top: 0;
+  width: 40%;
   font-weight: lighter;
 }
 
@@ -260,7 +262,7 @@ body {
   }
   
   .sidebar a {
-    padding: 15px 8px 8px 32px;
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-family: 'Eymen';
     font-size: 20px;
@@ -604,8 +606,9 @@ body {
 }
 
 /*------------------------------------------slideshow-----------------------------------------*/
-.mySlides {display: none}
-img {vertical-align: middle;
+.mySlides {display: none};
+
+.mySlides img {vertical-align: middle;
 
   border-radius: 0.5rem;
 }
@@ -770,3 +773,73 @@ img {vertical-align: middle;
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+.jsonicon {
+  display: inline-block;
+  width: 10%;
+  transition: transform .2s; /* Animation */
+  padding-top: 70px;
+}
+
+.jsonicon:hover {
+  transform: scale(1.1);
+}
+
+.rdficon {
+  display: inline-block;
+  width: 10%;
+  transition: transform .2s; /* Animation */
+  padding-top: 70px;
+}
+
+.rdficon:hover {
+  transform: scale(1.1);
+}
+
+.humans {
+  color: #707070;
+}
+
+.us {
+  width: 20%;
+  display: inline-block;
+  font-family: 'Eymen';
+  line-height: 1.4em;
+
+}
+
+.us img {
+  width: 70%;
+  border-radius: 0.5em;
+}
+
+.us .activities {
+  text-transform: uppercase;
+  padding: 0; 
+  margin: 0;
+  line-height: 1.2em !important;
+}
+
+.us .bio {
+  line-height: 1.2em!important;
+}
+
+
+.contact, .footer a {
+  text-decoration: none;
+  color: #1E1E1E;
+}
+
+.contact:hover, .footer a:hover{
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #98C1D9;
+  height: 40vh;
+  border-top: 1px solid #707070;
+  font-family: 'Eymen';
+  font-size: 14px;
+  padding-bottom: 5%;
+}
+

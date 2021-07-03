@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/epds.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    </head>
+      </head>
     
     <body>
         <div class="topnav">
@@ -20,20 +20,18 @@
             </div>
         </div>
         <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-            <a href="#Home">Home</a>
-            <a href="#introduction">Introduction</a>
-            <a href="#archive">ARTchives' lens</a>
-            <a href="#wikidata">The hidden photographers</a>
-            <a href="#worldmap">The geography of photographers</a>
-            <!--<a href="#network1">Cities: places of meetings and inspiration</a>-->
-            <a href="#italianwindow">The capitals of photography: the Italian panorama</a>
-            <a href="#network2">Beyond the lens</a>
-            <a href="conclusion">Conclusion</a>
-            <a href="#data">Data</a>
-            <a href="#about">About</a>
-        </div>
-
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a href="#Home">Home</a>
+          <a href="#introduction">Introduction</a>
+          <a href="#archive2">The hidden photographers</a>
+          <a href="#wikidata">Beyond the lens</a>
+          <a href="#worldmap">The geography of photographers</a>
+          <a href="#italianwindow">The capitals of photography: the Italian panorama</a>
+          <a href="#network2">A path of relationships</a>
+          <a href="#conclusion">Conclusion</a>
+          <a href="#data">The Data</a>
+          <a href="#about">About</a>
+      </div>
         <!-- <div class="collapsemenu">
             <div class="contentmenu">
                 <p class="menuintro">Introduction</p>
@@ -55,7 +53,7 @@
             <h2>The human history of the world's largest private archive on Italian painting.</h2>
 
             <div class="bottombar">
-                <button class="transparent1" onclick="scrollWin(0, 96)"><i class="material-icons" >keyboard_arrow_down</i></button>
+                <button class="transparent1"><a  href="#introduction"><i class="material-icons" >keyboard_arrow_down</i></a></button>
             </div>
         </div>
        
@@ -212,7 +210,7 @@
             The journey can continue, from the places where they were born to the cities where they lived, 
             worked and took their photographs. In particular,
             our photographers come from Italy, Germany, France, Denmark, United Kindom, Switzerland, 
-            Netherlands, Norway, Belgium, Austria, Czeck Republic, Hungary, Slovenia, Sweden, United States and New Zeland.</p>
+            Netherlands, Norway, Japan, Belgium, Austria, Czeck Republic, Hungary, Slovenia, Sweden, United States and New Zealand.</p>
             <div id="mapdiv" style="width: 500px; height: 500px"></div>
             <div class="line-div">
               <div class="line-div1"></div>
@@ -257,7 +255,7 @@
             <div class="line-div1"></div>
             <div class="line-div2"></div>
           </div>
-          <h2>Conclusion</h2>
+          <h2 style="padding-right: 35px;">Conclusion</h2>
           <p>The ultimate goal of our journey was to find what had been left behind. Thus photography has long lived in the shadow of art history, relegated to the corners of knowledge and arts. 
             The photographic heritage is still a breeding ground for new studies.</p><p>We have tried to offer scholars of the history of photography more information about the mysterious lives of photographers. 
             <br>To restore dignity to the figure who made possible the permanence of images that preserve the artistic heritage of Italy and the world.</p>
@@ -269,32 +267,95 @@
         </div>
       
         <div id="data" class="chapter">
-          <h3>The Data</h3>
+          <h2  style="padding-right: 35px;">Data</h2>
           <p>In the last stage of our journey, in order to finally see the human history of our archive, we just have to add one last piece: time. 
             By combining the time and space of our photographers, we have created a path of relationships which envision the movement behind the very creation of the photographs.<br> The people below 
             are some of the ones we were able to find back in Wikidata.
           </p>
-          <div class="line-div">
-            <div class="line-div1"></div>
-            <div class="line-div2"></div>
+          <div class="downloadicons">
+          <a href="data.json" download>
+            <img class="jsonicon" src="css/images/R__fotosito/json-file.png">
+          </a>
+          <a href="data.ttl" download>
+            <img class="rdficon" src="css/images/R__fotosito/rdf2.png">
+          </a>
           </div>
+          <script>                     
+              $(".jsonicon").on({
+              "mouseover" : function() {
+                  this.src = 'css/images/R__fotosito/json-file.png';
+                },
+                "mouseout" : function() {
+                  this.src='css/images/R__fotosito/json-file2.png';
+                }
+              });
+              $(".rdficon").on({
+              "mouseover" : function() {
+                  this.src = 'css/images/R__fotosito/rdf.png';
+                },
+                "mouseout" : function() {
+                  this.src='css/images/R__fotosito/rdf2.png';
+                }
+              });
+          </script>
         </div>
       
         <div id="about" class="chapter">
-          <h2>About</h2>
-          <p>In the last stage of our journey, in order to finally see the human history of our archive, we just have to add one last piece: time. 
-            By combining the time and space of our photographers, we have created a path of relationships which envision the movement behind the very creation of the photographs.<br> The people below 
-            are some of the ones we were able to find back in Wikidata.</p>
-        </div>
-        </div>
+          <h2>About <span class="humans">Humans of Zeri Photo Archive</span></h2>
+          <p>The Humans of Zeri Photo Archive project has been realised for the Electronic Publishing and Digital Storytelling exam held by Professor Marilena Daquino, within the Digital Humanities and Digital Knowledge course at the University of Bologna.</p>
 
-        <div id="footer" class="footer">
+          <p>The general aim of the project is to investigate topics related to the field of art history, exploiting linked open data as much as possible and making use of the information available on the ARTchives project and other data-driven realities such as Wikidata.</p>
+            
+          <p>Specifically, our study focused on expanding the data available on ARTchives about the Zeri Photo Library, integrating it with information about its photographers, in aim of improving research on the study of art photography. We modeled our project in order to be applicable to other collections within ARTchives, with the aim of improving the representation of the content of large collections through the data visualizations.</p>
+          <div class="us">
+            <img src="css/images/amanda.png">
+            <h4>Amanda Culoma</h4>
+            <p class="bio">Master's Degree student, DHDK @UniBo. Graduated in Humanities.</p>
+            <p class="activities">Data Visualization</p>
+            <p class="activities">Data Manipulation</p>
+            <p class="activities">Data Extraction</p>
+            <p class="activities">Storytelling</p>
+            <a class="contact" href="mailto:amanda.culoma@studio.unibo.it">Contact</a>          
+          </div>
+
+          <div class="us">
+            <img src="css/images/giulia.png">
+            <h4>Giulia Morini</h4>
+            <p class="bio">Master's Degree student, DHDK @UniBo. Graduated in Humanities</p>
+            <p class="activities">Data Manipulation</p>
+            <p class="activities">Storytelling</p>
+            <p class="activities">Graphics</p>
+            <p class="activities">Web Development</p>
+            <a class="contact" href="mailto:giulia.morini5@studio.unibo.it">Contact</a>          
+
+          </div>
+
+          <div class="us">
+            <img src="css/images/andrea.png">
+            <h4>Andrea Schimmenti</h4>
+            <p class="bio">Master's Degree student, DHDK @UniBo. Graduated in Humanities</p>
+            <p class="activities">Data Extraction</p>
+            <p class="activities">Data Manipulation</p>
+            <p class="activities">Data Organization</p>
+            <p class="activities">Data Visualization</p>
+            <a class="contact" href="mailto:andrea.schimmenti@studio.unibo.it">Contact</a>          
+          </div>
 
         </div>
+        <div class="footer">
+          <br>
+          <p>Copyright material available on this website is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</a> licence unless indicated otherwise.</p>
+          <p>Some of the data visualizations present in the webpage are powered by <a href="https://www.amcharts.com/">amCharts</a> under free license and referenced by an attribution logo at the bottom left of every chart.</p>
+          <p>Permission to use photos from the Zeri Foundation was granted by Marta Forlai, Head of Communications and External Relations.</p>
+          <p>We would like to thank the staff of the Zeri Photo Archive, in particular Francesca Mambelli, for their advice and interest in the project.</p> 
+          <p>All primary material on the site is used for educational purposes only; derivative works are the joint property of the authors.</p>
+          <p>Data have been collected from <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page"> Wikidata</a> and <a href="http://artchives.fondazionezeri.unibo.it/">ARTchives</a>.</p>
+          <p>Both sources are available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 license</a>.</p>
+          </div>
         <script>
-            $(document).ready(function(){
+            /*$(document).ready(function(){
                     $(this).scrollTop(0);
-                });
+                });*/
     
             /*function openNav() {
               document.getElementById("main").style.marginLeft = "18%";
