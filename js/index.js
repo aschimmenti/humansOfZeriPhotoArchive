@@ -407,5 +407,143 @@ am4core.ready(function() {
     pieSeries.hiddenState.properties.opacity = 1;
     pieSeries.hiddenState.properties.endAngle = -90;
     pieSeries.hiddenState.properties.startAngle = -90;
+    /*------------------------------------------------------------------------*/    
+    // Themes begin
+    am4core.useTheme(am4themes_animated);
+    // Themes end
     
+    var chart = am4core.create("final_net_div", am4plugins_forceDirected.ForceDirectedTree);
+    chart.legend = new am4charts.Legend();
+    
+    var networkSeries = chart.series.push(new am4plugins_forceDirected.ForceDirectedSeries())
+    
+    networkSeries.data = [{
+      name: '1830-1870',
+      children: [{
+        name: 'Paris',
+        children: [{
+          name: 'Paul Robert', value: 1
+        }, {
+          name: 'Félicien Rops', value: 1
+        }, {
+          name: 'Jacques Ernest Bulloz', value: 1
+        }]
+      }, {
+        name: 'Florence, Rome',
+        children: [{
+          name: 'Romualdo Alinari', value: 1
+        }, {
+          name: 'Leopoldo Alinari', value: 1
+        }, {
+          name: 'Giuseppe Alinari', value: 1
+        }, {
+          name: 'Romualdo Moscioni', value: 1
+        }]
+      }, {
+        name: 'Milan, Venice',
+        children: [{
+          name: 'Luigi Dubray', value: 1
+        }, {
+          name: 'Gian Battista Brusa', value: 1
+        }, {
+          name: 'Achille Ferrario', value: 1
+        }]
+      }, {
+        name: 'New York City',
+        children: [{
+          name: 'Gustavus W. Pach', value: 1
+        }, {
+          name: 'Gotthelf Pach', value: 1
+        }, {
+          name: 'Morris Pach', value: 1
+        }]
+      }]
+    }, {
+      name: '1860-1900',
+      children: [{
+        name: 'Milan',
+        children: [{
+          name: 'Dino Zani', value: 1
+        }, {
+          name: 'Gigi Bassani', value: 1
+        }, {
+          name: 'Mario Castagneri', value: 1
+        }, {
+          name: 'Emilio Sommariva', value: 1
+        }, {
+          name: 'Mario Crimella', value: 1
+        }]
+      }]
+    }, {
+      name: '1890-1930',
+      children: [{
+        name: 'Milan',
+        children: [{
+          name: 'Dino Zani', value: 1
+        }, {
+          name: 'Elio Ciol', value: 1
+        }, {
+          name: 'Mario Perotti', value: 1
+        }, {
+          name: 'Gianni Mari', value: 1
+        }, {
+          name: 'Mario Crimella', value: 1
+        }, {
+          name: 'Mario Castagneri', value: 1
+        }, {
+          name: 'Paolo Monti', value: 1
+        }, {
+          name: 'Gian Battista Colombo', value: 1
+        }, {
+          name: 'Gigi Bassani', value: 1
+        }]
+    }, {
+        name: 'Bologna, Rome',
+        children: [{
+          name: 'Pasquale de Antonis', value: 1
+        }, {
+          name: 'Francesco Giordani', value: 1
+        }, {
+          name: 'Oscar Savio', value: 1
+        }]
+      }, {
+        name: 'New York City',
+        children: [{
+          name: 'Hans Schiff', value: 1
+        }, {
+          name: 'Harold Corsini', value: 1
+        }, {
+          name: 'Mortimer Offner', value: 1
+        }]
+      }]
+    }, {
+      name: '1920-1960',
+      children: [{
+        name: 'Milan',
+        children: [{
+          name: 'Elio Ciol', value: 1
+        }, {
+          name: 'Gian Battista Colombo', value: 1
+        }, {
+          name: 'Gianni Mari', value: 1
+        }]
+      }]
+    }];
+    
+    networkSeries.dataFields.linkWith = "linkWith";
+    networkSeries.dataFields.name = "name";
+    networkSeries.dataFields.id = "name";
+    networkSeries.dataFields.value = "value";
+    networkSeries.dataFields.children = "children";
+    
+    networkSeries.nodes.template.tooltipText = "{name}";
+    networkSeries.nodes.template.fillOpacity = 1;
+    
+    networkSeries.nodes.template.label.text = "{name}"
+    networkSeries.fontSize = 8;
+    networkSeries.maxLevels = 2;
+    networkSeries.maxRadius = am4core.percent(6);
+    networkSeries.manyBodyStrength = -16;
+    networkSeries.nodes.template.label.hideOversized = true;
+    networkSeries.nodes.template.label.truncate = true;
 }); // end am4core.ready()

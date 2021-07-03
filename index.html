@@ -242,60 +242,16 @@
           <p>In the last stage of our journey, in order to finally see the human history of our archive, we just have to add one last piece: time. 
             By combining the time and space of our photographers, we have created a path of relationships which envision the movement behind the very creation of the photographs.<br> The people below 
           are some of the ones we were able to find back in Wikidata.</p>
-          <div class="slideshow-container">
-            <div class="myNets fade">
-              <div class="numbertext">1 / 6</div>
-              <img src="css/images/1.png" style="width:80%">
-              <div class="captiontext">Caption Text</div>
-            </div>
-            
-            <div class="myNets fade">
-              <div class="numbertext">2 / 6</div>
-              <img src="css/images/2.png" style="width:80%">
-              <div class="captiontext">Caption Two</div>
-            </div>
-            
-            <div class="myNets fade">
-              <div class="numbertext">3 / 6</div>
-              <img src="css/images/3.png" style="width:80%">
-              <div class="captiontext">Caption Three</div>
-            </div>
-
-            <div class="myNets fade">
-              <div class="numbertext">4 / 6</div>
-              <img src="css/images/4.png" style="width:80%">
-              <div class="captiontext">Caption Three</div>
-            </div>
-
-            <div class="myNets fade">
-              <div class="numbertext">5 / 6</div>
-              <img src="css/images/5.png" style="width:80%">
-              <div class="captiontext">Caption Three</div>
-            </div>
-
-            <div class="myNets fade">
-              <div class="numbertext">6 / 6</div>
-              <img src="css/images/6.png" style="width:80%">
-              <div class="captiontext">Caption Three</div>
-            </div>
-            
-            <a class="prev" onclick="plusNet(-1)">&#10094;</a>
-            <a class="next" onclick="plusNet(1)">&#10095;</a>
-            
-            </div>
-            <br>
-            
-            <div style="text-align:center">
-              <span class="point" onclick="currentNet(1)"></span> 
-              <span class="point" onclick="currentNet(2)"></span> 
-              <span class="point" onclick="currentNet(3)"></span> 
-              <span class="point" onclick="currentNet(4)"></span> 
-              <span class="point" onclick="currentNet(5)"></span> 
-              <span class="point" onclick="currentNet(6)"></span> 
-            </div>
-      </div>
+          <div id="final_net_div"></div>
+          <style>
+          #final_net_div {
+            width: 100%;
+            max-width: 100%;
+            height: 550px;
+          }
+          </style>
         </div>
-
+        
         <div id="conclusion" class="chapter">
           <div class="line-div">
             <div class="line-div1"></div>
@@ -425,6 +381,7 @@
         <script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>
         <script src="https://cdn.amcharts.com/lib/4/themes/material.js"></script>
         <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/plugins/forceDirected.js"></script>
         <script src="js/index.js"></script>
     </body>
 </html>
