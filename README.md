@@ -10,4 +10,5 @@ Specifically, our study focused on expanding the data available on ARTchives abo
 - ARTchives and Wikidata data are available under CC0 license. The data visualizations powered by amCharts are under free license. The materials of the project, the website and all the data used are licensed under CC BY 4.0 licence.
 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aschimmenti/humansOfZeriPhotoArchive/HEAD?filepath=humansOfZeriPhotoArchive%2Fjupyter%2Fjupyter_fototeca_zeri.ipynb)
+Check the jupyter notebook of the project: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aschimmenti/humansOfZeriPhotoArchive/HEAD?filepath=humansOfZeriPhotoArchive%2Fjupyter%2Fjupyter_fototeca_zeri.ipynb)
+Check the website of the project: https://aschimmenti.github.io/humansOfZeriPhotoArchive/
