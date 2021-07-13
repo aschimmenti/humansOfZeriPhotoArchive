@@ -5,4 +5,9 @@ The general aim of the project is to investigate topics related to the field of 
 
 Specifically, our study focused on expanding the data available on ARTchives about the Zeri Photo Library, integrating it with information about its photographers, in aim of improving research on the study of art photography. We modeled our project in order to be applicable to other collections within ARTchives, with the aim of improving the representation of the content of large collections through the data visualizations.
 
+
+
+ARTchives and Wikidata data are available under CC0 license. The data visualizations powered by amCharts are under free license. The materials of the project, the website and all the data used are licensed under CC BY 4.0 licence.
+
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aschimmenti/humansOfZeriPhotoArchive/HEAD?filepath=humansOfZeriPhotoArchive%2Fjupyter%2Fjupyter_fototeca_zeri.ipynb)
